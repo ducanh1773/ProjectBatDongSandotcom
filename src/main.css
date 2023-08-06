@@ -1,0 +1,20 @@
+.navigation_bar{
+    display: flex;
+    
+}
+
+.navigation_bar li{
+    float: left;
+    list-style: none;
+}
+
+.navigation_bar li:hover{
+    background:#222;
+}
+.navigation_bar li ul li{display:none; width: 100px ;margin-top: 10px}
+.navigation_bar li:hover ul li{display: block}
+
+
+.logo{
+
+}

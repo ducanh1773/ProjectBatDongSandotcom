@@ -1,0 +1,39 @@
+.SearchEngineFromNews{
+    border: none;
+    width: 1130px;
+    font-size:16px ;
+    color: black;
+    outline: none;
+    padding-right: 20px;
+    
+}
+
+.LineOnSearchEngineFromNews{
+    width: 1px;
+    height: 20px;
+    background-color: #c3c0c0;
+    
+}
+
+.SubjectNewsBDS{
+    width: 900px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.SubjectNewsBDS p{
+    font-size: 18px;
+    text-align: start;
+}
+
+.SubjectNewsBDS h1{
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+
+.SubjectOnNewsMain:hover{
+    color: rgb(196, 194, 194);
+}

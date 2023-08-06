@@ -1,0 +1,105 @@
+.BackGroundHeader {
+    background-color: rgb(0, 0, 0);
+    height: 150px;
+    display: grid;
+    position: absolute;
+    width: 100%;
+    grid-template-columns: auto auto auto auto ;
+}
+
+
+
+.HeaderClothes {
+    display: flex;
+    align-items: center;
+}
+
+.imgLogoClothes {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.OptionHeaderClothes2 {
+    color: white;
+    padding-right: 50px;
+}
+
+.BoughtAndLocationStore {
+    display: flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 50px;
+}
+
+.OptionHeaderClothes2:hover {
+    color: rgb(203, 207, 211);
+    cursor: pointer;
+
+
+}
+
+.SearchBtnCl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 30px;
+    padding: 6px;
+
+}
+
+.icon_cart {
+    color: white;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.Form-Clothes {
+
+    display: flex;
+    width: fit-content;
+
+}
+
+.Input-Clothes {
+    width: 40px;
+    background-color: white;
+}
+
+.Input-Clothes::placeholder {
+
+    color: black;
+
+}
+
+
+.Form-Clothes,
+.Input-Clothes {
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    transition: all 0.25s ease-in-out;
+    font-size: 16px;
+
+
+}
+
+.Form-Clothes:hover .Input-Clothes,
+.Form-Clothes .Input-Clothes:valid {
+    padding: 10px;
+    width: 200px;
+    background-color: white;
+
+}

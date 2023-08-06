@@ -1,0 +1,44 @@
+.HeaderOnWiki{
+    padding-left: 40px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    align-items: center;
+    height: 60px;
+
+}
+
+.HeaderOnWiki a{
+    position: relative;
+    font-weight: 600;
+    width:100%;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    width: fit-content;
+    padding-bottom: 3px;
+
+}
+
+.HeaderOnWiki a:after{
+    content: '';
+    position: absolute;
+    width:100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #c52121;
+    transform-origin: bottom right;
+    transition: transform 0.25s ;
+   
+}
+
+.HeaderOnWiki a:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+   
+    
+}

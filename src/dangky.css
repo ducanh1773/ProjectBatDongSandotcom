@@ -1,0 +1,181 @@
+.right_dk{
+    display: flex;
+    flex:auto;
+    justify-content: center;
+}
+.back_gr{
+    background-color: #facdd541;
+}
+
+.logo{
+    width: 148px;
+    height: 80px;
+    padding-left: 22px;
+}
+
+.letter{
+    font-size: 18px;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 700;
+    padding-left: 19px;
+    margin-bottom: 0%;
+    
+}
+
+.letter_2{
+    font-size: 18px;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 700;
+    padding-left: 19px;
+    margin-top:  8px;;
+}
+
+.letter_3{
+    padding-left: 23px;
+    padding-top: 53px;
+    font-size: 14px;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+
+.letter_4{
+    margin-top: 0%;
+    font-size: 28px;
+    padding-left: 23px;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 700;
+}
+.form{
+    padding-left: 23px;
+}
+
+.form_dk{
+    display: flex;
+    padding-left: 15px;
+    width: 461px;
+    height: 46px;
+    border-radius: 7px;
+    border: 1px solid #ccc!important;
+}
+.INPUT_1{
+    border: none;
+}
+
+.Button{
+    padding-left: 23px;
+}
+
+.Button_1{
+    width: 479px;
+    height: 46px;
+    border-radius: 7px;
+    color: white;
+    border: 1px solid #ccc!important;
+    background-color: rgb(205, 93, 93);
+    font-size: 15px;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 600;
+}
+
+.or{
+    padding-left: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoac{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.line_1{
+    padding-left: 10px;
+    width: 40%;
+    height: 1px;
+    background-color:#ccc!important;
+    
+}
+.line_2{
+    width: 40%;
+    height: 1px;
+    background-color: #ccc!important;
+}
+
+.button{
+    padding-left: 23px;
+}
+
+.button_fb{
+    width: 243px;
+    height: 59px;
+    border-radius: 7px;
+    background-color: white;
+    border: 1px solid #f0eded!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+ 
+
+}
+.button_gg{
+    width: 243px;
+    height: 59px;
+    border-radius: 7px;
+    background-color: white;
+    border: 1px solid #f0eded!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button_fb:hover{
+    background-color: hsl(0, 10%, 96%);
+}
+
+.button_gg:hover{
+    background-color: hsl(0, 10%, 96%);
+
+}
+
+.img{
+    width: 14px;
+    height: 14px;
+    padding-right: 10px;
+}
+
+.qc{
+    padding-left: 23px;
+}
+
+.letter_7{
+    font-size: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #ccc;
+
+}
+
+.img{
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.link_qc{
+    text-decoration: none;
+    color: red;
+}
+
+.last{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 23px;
+    font-size: 13px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+
+.last_3{
+    text-decoration: none;
+    color: red;
+}
+

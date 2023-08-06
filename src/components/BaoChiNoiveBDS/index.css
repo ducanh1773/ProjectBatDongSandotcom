@@ -1,0 +1,42 @@
+.SubjectBC1{
+    display: flex;
+    align-items: center;
+}
+
+.SubjectBC2{
+    margin: 0;
+    display: flex;
+    justify-content: end;
+    width: 747px;
+}
+
+.Option_BaoChinoiveBDS1{
+    width: 235px;
+    height: 180px;
+   
+
+}
+.TextBC{
+    font-weight: 400;
+    text-align: center;
+}
+
+.Option_BaoChinoiveBDS{
+    text-align: center;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+.Link_BC_BDS{
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
+}
+
+.Option_BaoChinoiveBDS2{
+    padding-left: 140px;
+}
+
+
+

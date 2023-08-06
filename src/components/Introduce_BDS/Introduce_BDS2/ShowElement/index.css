@@ -1,0 +1,16 @@
+.Link_Introduce1{
+    text-decoration: none;
+    color: black;
+    width: 262px;
+}
+
+.Letter_Introduce1:hover{
+    color: rgb(158 156 156);
+    width: 262px;
+}
+
+.MoreOptioneIntroduce{
+    color: red;
+    cursor: pointer;
+    
+}

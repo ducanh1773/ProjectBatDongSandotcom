@@ -1,0 +1,22 @@
+.Subject_Introduce:hover{
+    color: rgb(158 156 156);
+    cursor: pointer;
+}
+
+.AllOption_Introduce1{
+    display: grid;
+    padding-left: 243px;    
+    grid-template-columns: auto auto auto auto;
+    
+}
+
+.AllOption_Introduce2{
+    display: grid;
+    padding-left: 243px;    
+    grid-template-columns: auto auto auto auto;
+}
+
+.AllOption_Introduce3{
+    width: 262px;
+}
+

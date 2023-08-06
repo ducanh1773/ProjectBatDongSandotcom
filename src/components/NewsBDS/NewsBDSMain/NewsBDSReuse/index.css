@@ -1,0 +1,188 @@
+.ImgNewsOnMain{
+    width: 260px;
+    height: 150px;
+}
+
+.SubJectNewsOnMain{
+    color: black;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.SubJectNewsOnMain:hover{
+    color: rgb(139, 138, 138);
+}
+
+.NewsAnotherOnNewsMain1{
+    font-size: 12px;
+    color: black;
+    background-color: rgb(226, 226, 226);
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+  
+}
+
+.NewsAnotherOnNewsMain2{
+    font-size: 12px;
+    color: black;
+    background-color: rgb(226, 226, 226);
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.MostViewOnNews{
+    width: 356px;
+    display: grid;
+    border: 1px solid rgb(236, 234, 234);
+    justify-content: center;
+    height: 529px;
+    border-radius: 7px;
+   
+}
+
+.MostViewOnNewsMain{
+    display: flex;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    
+}
+
+.MostViewOnNewsMain p{
+    color: rgb(114, 11, 11);
+    margin: 0;
+    background-color: rgb(254, 227, 227);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.MostViewOnNewsMain a{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    width: 290px;
+    height: 44px;
+    
+    
+}
+
+
+
+.MostViewOnNewsMain a:hover{
+    color: rgb(177, 176, 176);
+}
+
+.LineMostViewOnNewsMain{
+    width:324px;
+    height: 1px;
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.MostViewOnNewsSubject{
+    padding-left: 20px;
+    width: 268px ;
+}
+
+.BDSHaNoiOnNews{
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+
+.BDSHaNoiOnNews p{
+    margin: 0;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+  
+}
+
+.BDSHaNoiOnNewsImg{
+    width: 127px;
+    height: 75px;
+    border-radius: 7px;
+}
+
+.BDSHoChiMinhOnNews{
+   
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.BDSHoChiMinhOnNews p{
+    margin: 0;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    
+}
+
+.AntherBDSOnNews img{
+    width: 40px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.AntherBDSOnNews p{
+    text-transform: capitalize;
+    padding-left: 20px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.AntherBDSOnNews p:hover{
+    color: rgb(160, 160, 160);
+}
+
+.AntherBDSOnNews{
+    align-items: center;
+}
+
+.TopCityBDS{
+    width: 356px;
+    display: grid;
+    border: 1px solid rgb(236, 234, 234);
+    justify-content: center;
+    height: 721px;
+    border-radius: 7px;
+    margin-top: 50px;
+   
+}
+
+.MorOptionOnNewsMain{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 37.6px;
+    border: 1px solid #e03c31;
+    border-radius: 7px;
+    margin: 0;
+    color: #e03c31;
+    font-weight: 500;
+    
+}
+
+.MorOptionOnNewsMain:hover{
+    background-color: #e03c31;
+    color: white;
+}
+
