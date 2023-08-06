@@ -89,8 +89,8 @@ function Header() {
                     <Link to='/nha_dat_ban' style={{textDecoration:'none'}}><Header_2 name='Nhà đất bán' NVB={NVB1} className='nv1'></Header_2></Link>
                     <Link to='/nha_dat_ban' style={{textDecoration:'none'}}><Header_2 name='Nhà đất cho thuê' NVB={NVB2} className='nv2'></Header_2></Link>
                     <Link to='/duan' style={{textDecoration:'none'}}><Header_2 name='Dự án' NVB={NVB3}></Header_2></Link>
-                    <Link  to="/tintucbds" className="li"><Header_2 name='Tin tức' NVB={NVB4}></Header_2></Link>
-                    <Header_2 name='Wiki BĐS' NVB={NVB5}></Header_2>
+                    <Link  to="/tintucbds" style={{textDecoration:'none'}}><Header_2 name='Tin tức' NVB={NVB4}></Header_2></Link>
+                    <Link to="/wiki" className="li"><Header_2 name='Wiki BĐS' NVB={NVB5}></Header_2></Link>
                     <Header_2 name='Phân tích đánh giá' NVB={NVB6}></Header_2>
                     <Header_2 name='Danh bạ' NVB={NVB7}></Header_2>
                 </div>

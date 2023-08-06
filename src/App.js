@@ -21,6 +21,7 @@ function App() {
         <Route path='/duan' element={<ProjectBDSMain></ProjectBDSMain>}></Route>
         <Route path="*" element={<Main_Page_BDS></Main_Page_BDS>} />
         <Route path='/tintucbds' element={<NewsBDSMain></NewsBDSMain>}></Route>
+        
       </Routes>
 
     </div>
