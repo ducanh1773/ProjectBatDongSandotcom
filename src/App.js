@@ -20,6 +20,7 @@ function App() {
         <Route path='/nha_dat_ban' element={<HeaderNhaDatBan></HeaderNhaDatBan>}></Route>
         <Route path='/duan' element={<ProjectBDSMain></ProjectBDSMain>}></Route>
         <Route path="*" element={<Main_Page_BDS></Main_Page_BDS>} />
+        <Route path='/tintucbds' element={<NewsBDSMain></NewsBDSMain>}></Route>
       </Routes>
 
     </div>
