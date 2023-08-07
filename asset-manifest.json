@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ProjectBatDongSandotcom/static/css/main.eb8db37e.css",
+    "main.js": "/ProjectBatDongSandotcom/static/js/main.5b3cf3d7.js",
+    "static/js/787.fade2e9e.chunk.js": "/ProjectBatDongSandotcom/static/js/787.fade2e9e.chunk.js",
+    "static/media/logo.svg": "/ProjectBatDongSandotcom/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ProjectBatDongSandotcom/index.html",
+    "main.eb8db37e.css.map": "/ProjectBatDongSandotcom/static/css/main.eb8db37e.css.map",
+    "main.5b3cf3d7.js.map": "/ProjectBatDongSandotcom/static/js/main.5b3cf3d7.js.map",
+    "787.fade2e9e.chunk.js.map": "/ProjectBatDongSandotcom/static/js/787.fade2e9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb8db37e.css",
+    "static/js/main.5b3cf3d7.js"
+  ]
+}
