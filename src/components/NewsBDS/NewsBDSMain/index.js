@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import './index.css'
 import Header from "../../Header/Main_header";
-import NewsBDSOnMain from '../NewsBDSMain/NewsBDSReuse'
-import Introduce from '../../Introduce_BDS'
+import NewsBDSOnMain from "./NewsBDSReuse";
+import Introduce from "../../Introduce_BDS";
 import moment from 'moment'
 import LastIntroduce from '../../Last_Introduce_Main'
 function NewsBDSMain() {

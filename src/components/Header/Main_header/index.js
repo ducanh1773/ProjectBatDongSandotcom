@@ -2,7 +2,7 @@ import React from "react";
 import Header_2 from "../Header_2";
 import './index.css'
 import { Link } from "react-router-dom";
-
+import Tippy from "@tippyjs/react";
 
 function Header() {
 
@@ -91,15 +91,15 @@ function Header() {
                     <Link to='/duan' style={{textDecoration:'none'}}><Header_2 name='Dự án' NVB={NVB3}></Header_2></Link>
                     <Link  to="/tintucbds" style={{textDecoration:'none'}}><Header_2 name='Tin tức' NVB={NVB4}></Header_2></Link>
                     <Link to="/wiki" className="li"><Header_2 name='Wiki BĐS' NVB={NVB5}></Header_2></Link>
-                    <Header_2 name='Phân tích đánh giá' NVB={NVB6}></Header_2>
-                    <Header_2 name='Danh bạ' NVB={NVB7}></Header_2>
+                    <Link to="/phantichdanhgia" style={{textDecoration:'none'}}><Header_2 name='Phân tích đánh giá' NVB={NVB6}></Header_2></Link>
+                    <Header_2 name='Danh bạ' NVB={NVB7} ></Header_2>
                 </div>
 
                 <div className="main_right">
-                    <button className="button_icon"><i className="fa fa-heart-o icon_heart"></i></button>
-                    <a href="" className="main_dn"><button className="dn_dk">Đăng nhập</button></a>
-                    <a href="" className="main_dn"><button className="dn_dk">Đăng ký</button></a>
-                    <a href="" className="main_dn"><button className="dn_dk_dt">Đăng tin</button></a>
+                   <button className="button_icon" style={{cursor:'pointer'}}><i className="fa fa-heart-o icon_heart"></i></button>
+                    <Link to='/dang-nhap-bds' className="main_dn"><button className="dn_dk">Đăng nhập</button></Link>
+                    <Link to='/dang-ky-bds' className="main_dn"><button className="dn_dk">Đăng ký</button></Link>
+                    <Link to='/dang-nhap-bds' className="main_dn"><button className="dn_dk_dt">Đăng tin</button></Link>
                 </div>
                 <br></br>
             </div>
