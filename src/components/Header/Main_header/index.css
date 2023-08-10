@@ -1,87 +1,91 @@
-.logo_main{
+.logo_main {
     padding-left: 21px;
     width: 142px;
 
 }
-.nv1{
+
+.nv1 {
     text-decoration: none;
 }
 
-.li{
+.li {
     text-decoration: none;
 }
 
-.img_12{
+.img_12 {
     padding-top: 5px;
 }
 
-.main_nvbar{
+.main_nvbar {
     display: flex;
     padding-bottom: 10px;
     border-color: red;
-    width: 1707px;
+    width: 100%;
     box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
-    
 
-  
+
+
 }
 
 
 
-.main_left{
+
+
+.main_left {
     padding-top: 20px;
+    width: 70%;
 }
 
-.main_right{
-    width: 843px;
+.main_right {
     justify-content: right;
     text-align: right;
     padding-top: 20px;
-    padding-left: 89px;
-    
-    
+    width: 25%;
+
+
 }
 
-.dn_dk_dt{
-    width: 98px;
+.dn_dk_dt {
+    width: 20%;
     height: 52px;
     background-color: white;
     border-radius: 8px;
-    border: 1px solid #d4d1d1!important;
-   font-weight: 600;
-   cursor: pointer;
-    
+    border: 1px solid #d4d1d1 !important;
+    font-weight: 600;
+    cursor: pointer;
+
 }
 
-.dn_dk_dt:hover{
- background-color: hsl(0, 10%, 96%);
+.dn_dk_dt:hover {
+    background-color: hsl(0, 10%, 96%);
 }
 
-.dn_dk{
-    width: 98px;
+.dn_dk {
+    width: 20%;
     height: 52px;
     background-color: white;
     border: none;
     border-radius: 8px;
     font-weight: 600;
     cursor: pointer;
-    
+
 }
 
 
-.dn_dk:hover{
+.dn_dk:hover {
     background-color: hsl(0, 10%, 96%);
 }
-.main_dn{
-    padding-left: 20px;
+
+.main_dn {
+    padding-left: 10%;
     cursor: pointer;
 }
 
-.icon_heart{
+.icon_heart {
     font-size: 20px;
 }
 
-.button_icon{
+.button_icon {
     width: 40px;
     height: 40px;
     background-color: white;
@@ -89,39 +93,46 @@
     border-radius: 7px;
 }
 
-.button_icon:hover{
+.button_icon:hover {
     background-color: hsl(0, 10%, 96%);
 }
 
-.line_nvbar{
+.line_nvbar {
     height: 2px;
     background-color: hsl(0, 10%, 96%);
-    margin-bottom:30px;
+    margin-bottom: 30px;
 
 }
 
 
 
-.searchEngine{
+.searchEngine {
     padding-left: 415px;
-    
+
 }
 
-.bt_sg{
+.bt_sg {
     width: 130px;
     height: 38px;
     border: none;
     background-color: white;
 }
 
-.bt_sg:hover{
+.bt_sg:hover {
     background-color: hsl(0, 4%, 44%);
     color: white;
 }
-.main_nvbar_2{
-    width: 1707px;
+
+.main_nvbar_2 {
+    width: 100%;
 }
 
+@media screen and (min-width: 1440px) {
+    .main_nvbar{
+        width: 100%;
+    }
 
-
-
+    .main_right{
+        width: 30%;
+    }
+}

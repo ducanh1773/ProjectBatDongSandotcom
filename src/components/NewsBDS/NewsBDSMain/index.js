@@ -43,7 +43,7 @@ function NewsBDSMain() {
             <div>
                 <Header></Header>
             </div>
-            <div style={{ paddingTop: '20px', paddingBottom: '20px', }}>
+            <div style={{ paddingTop: '20px', paddingBottom: '20px', }} >
                 {showElement &&
                     <div style={{ display: 'flex' }}>
                         <a href="" style={{ textDecoration: 'none', color: 'black', display: 'flex' }}>
@@ -81,7 +81,7 @@ function NewsBDSMain() {
             <div style={{ width: '100%', height: '1px', backgroundColor: 'rgb(241 239 239)', }}>
 
             </div>
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div style={{ display: 'flex', justifyContent: 'center' }} className="MainPageOnPageNews">
 
                 <div className="SubjectNewsBDS">
                     <h1>
@@ -93,7 +93,7 @@ function NewsBDSMain() {
                     </p>
                 </div>
             </div>
-            <div style={{ paddingLeft: '300px', display: 'flex', paddingTop: '60px' }}>
+            <div  className="MainPageOnPageNews4">
                 <div>
                     <div style={{ height: '200px', }}>
                         <a href="">
@@ -133,7 +133,7 @@ function NewsBDSMain() {
                 </div>
 
             </div>
-            <div style={{ paddingLeft: '300px', display: 'flex' }}>
+            <div className="MainPageOnPageNews3">
                 <div style={{ paddingRight: '100px' }}>
                     <div>
                         <NewsBDSOnMain ImgElement={NewsMain1}></NewsBDSOnMain>
@@ -312,7 +312,7 @@ function NewsBDSMain() {
 
                 </div>
             </div>
-            <div style={{paddingTop:'40px'}}>
+            <div style={{paddingTop:'40px'}} className="IntroduceOnPageNews">
                 <Introduce></Introduce>
             </div>
             <div style={{paddingTop:'60px'}}>

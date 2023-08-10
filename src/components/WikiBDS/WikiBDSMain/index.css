@@ -42,3 +42,36 @@
    
     
 }
+
+.MainNewsOnWiki{
+    padding-left: 400px;
+    display: flex;
+    padding-top: 60px;
+}
+
+.MainNewsOnWiki2{
+    margin-top: 80px;
+    padding-left: 300px;
+}
+
+.MainOnWiki3{
+    padding-left: 300px;
+    display: flex;
+}
+
+@media only screen and (max-width : 1440px) {
+    .MainNewsOnWiki{
+        padding-left: 200px;
+    }
+    .MainNewsOnWiki2{
+        padding-left: 200px;
+    }
+
+    .MainOnWiki3{
+        padding-left: 100px;
+    }
+}
+
+@media only screen and (width:1024px){
+    
+}

@@ -4,12 +4,12 @@ import {Reuse} from '../../Reuse'
 import { useState } from "react";
 import News_BDS_1 from "../News_BDS_1";
 function News_BDS_3(){
-    const News_1 = [{ link_bds: 'https://batdongsan.com.vn/', name: 'chủ đầy tư BĐS bung hàng trở lại, giao dịch nhà đất có sớm "rã băng"', imgUrl: '/img/tin2.jpg' }]
-    const News_2 = [{ link_bds: '', name: 'Nhiều dự án BĐS vùng ven thắng khi ưu tiên "Đánh bắt" sân nhà', imgUrl: '/img/tin3.jpg' }]
-    const News_3 = [{ link_bds: '', name: 'Ngã tư bà điểm - tiện ích xung quanh và cách di chuyển nhanh nhất[2023]', imgUrl: '/img/tt8.jpg' }]
-    const News_4 = [{ link_bds: '', name: 'đường vành đai 2 TPHCM bao giờ khép kín? Những dự án bất động sản nào hưởng lợi', imgUrl: '/img/tin4.jpg' }]
-    const News_5 = [{ link_bds: '', name: 'ngã tư hóc môn và những tiện ích xung quanh[2023]', imgUrl: '/img/tin5.jpg' }]
-    const News_6 = [{ link_bds: '', name: 'làm gì để vực dậy thanh khoản cho thị trường BĐS?', imgUrl: '/img/tt_6.png' }]
+    const News_1 = [{ link_bds: 'https://batdongsan.com.vn/', name: 'chủ đầy tư BĐS bung hàng trở lại, giao dịch nhà đất có sớm "rã băng"', imgUrl: 'https://img.iproperty.com.my/angel/610x342-crop/wp-content/uploads/sites/7/2023/07/Ong-Nguyen-Quoc-Anh_Pho-TGD-Batdongsan.com_.vn-trinh-bay-ve-Tong-quan-kinh-te-vi-mo-va-Thi-truong-BDS-scaled.jpg', link: 'https://batdongsan.com.vn/tin-tuc/nhung-diem-sang-an-tuong-cua-thi-truong-bds-ha-noi-cd-hn-772420' }]
+    const News_2 = [{ link_bds: '', name: 'Nhiều dự án BĐS vùng ven thắng khi ưu tiên "Đánh bắt" sân nhà', imgUrl: 'https://img.iproperty.com.my/angel/610x342-crop/wp-content/uploads/sites/7/2023/07/Ong-Nguyen-Quoc-Anh_Pho-TGD-Batdongsan.com_.vn-trinh-bay-ve-Tong-quan-kinh-te-vi-mo-va-Thi-truong-BDS-scaled.jpg', link: 'https://batdongsan.com.vn/tin-tuc/nhung-diem-sang-an-tuong-cua-thi-truong-bds-ha-noi-cd-hn-772420' }]
+    const News_3 = [{ link_bds: '', name: 'Ngã tư bà điểm - tiện ích xung quanh và cách di chuyển nhanh nhất[2023]', imgUrl: 'https://img.iproperty.com.my/angel/610x342-crop/wp-content/uploads/sites/7/2023/07/Ong-Nguyen-Quoc-Anh_Pho-TGD-Batdongsan.com_.vn-trinh-bay-ve-Tong-quan-kinh-te-vi-mo-va-Thi-truong-BDS-scaled.jpg', link: 'https://batdongsan.com.vn/tin-tuc/nhung-diem-sang-an-tuong-cua-thi-truong-bds-ha-noi-cd-hn-772420' }]
+    const News_4 = [{ link_bds: '', name: 'đường vành đai 2 TPHCM bao giờ khép kín? Những dự án bất động sản nào hưởng lợi', imgUrl: 'https://img.iproperty.com.my/angel/610x342-crop/wp-content/uploads/sites/7/2023/07/Ong-Nguyen-Quoc-Anh_Pho-TGD-Batdongsan.com_.vn-trinh-bay-ve-Tong-quan-kinh-te-vi-mo-va-Thi-truong-BDS-scaled.jpg', link: 'https://batdongsan.com.vn/tin-tuc/nhung-diem-sang-an-tuong-cua-thi-truong-bds-ha-noi-cd-hn-772420' }]
+    const News_5 = [{ link_bds: '', name: 'ngã tư hóc môn và những tiện ích xung quanh[2023]', imgUrl: 'https://img.iproperty.com.my/angel/610x342-crop/wp-content/uploads/sites/7/2023/07/Ong-Nguyen-Quoc-Anh_Pho-TGD-Batdongsan.com_.vn-trinh-bay-ve-Tong-quan-kinh-te-vi-mo-va-Thi-truong-BDS-scaled.jpg', link: 'https://batdongsan.com.vn/tin-tuc/nhung-diem-sang-an-tuong-cua-thi-truong-bds-ha-noi-cd-hn-772420' }]
+    const News_6 = [{ link_bds: '', name: 'làm gì để vực dậy thanh khoản cho thị trường BĐS?', imgUrl: 'https://img.iproperty.com.my/angel/610x342-crop/wp-content/uploads/sites/7/2023/07/Ong-Nguyen-Quoc-Anh_Pho-TGD-Batdongsan.com_.vn-trinh-bay-ve-Tong-quan-kinh-te-vi-mo-va-Thi-truong-BDS-scaled.jpg', link: 'https://batdongsan.com.vn/tin-tuc/nhung-diem-sang-an-tuong-cua-thi-truong-bds-ha-noi-cd-hn-772420' }]
 
     const [hoveredElement, setHoveredElement] = useState(true);
     const [hoveredElement1, setHoveredElement1] = useState(null);

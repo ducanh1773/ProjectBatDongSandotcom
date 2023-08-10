@@ -7,6 +7,7 @@ import Option_3 from '../../../SearchEngine/SearchEgine_2/option/Option_3'
 import Option_4 from "../../../SearchEngine/SearchEgine_2/option/Option_4";
 import Tippy from "@tippyjs/react";
 import NhaDatBanMain from "../NhaDatBanMain";
+import LastIntroduceMain from "../../../Last_Introduce_Main";
 function HeaderNhaDatBan() {
 
     const ElementNDB1 = [{
@@ -205,7 +206,7 @@ function HeaderNhaDatBan() {
     return (
         <div>
             <div style={{position:'sticky' , top:'0'}} className="HeaderMainNDB">
-                <div onMouseDown={handleClickHideOption}><Header></Header></div>
+                <div><Header></Header></div>
                 <div className="HeaderNDB2" >
                     <div className="OptionNDB" style={{ display: 'flex' }}>
                         <button onClick={ClickChangeBackgr} className={"OptionNDB1" && BackgroundColor ? "ChangeBackgr" : "OptionNDB1"} >Bán</button>
@@ -439,7 +440,7 @@ function HeaderNhaDatBan() {
                     </div>
                     <div style={{ paddingLeft: '30px' }}>
 
-                        <div className="OptionNDB">
+                        <div className="OptionNDBpRICE">
                             <h4>Lọc theo khoảng giá</h4>
                             <p>Thỏa thuận</p>
                             <p>Dưới 500 triệu</p>
@@ -516,6 +517,9 @@ function HeaderNhaDatBan() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="LastIntroduceOnNhaDatBan">
+                        <LastIntroduceMain></LastIntroduceMain>
             </div>
         </div>
 

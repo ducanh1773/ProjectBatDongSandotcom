@@ -1,0 +1,60 @@
+.NewsOnPTDG{
+    padding-left: 300px;
+    display: flex;
+    padding-top: 60px;
+}
+
+.MainOnEvaluteProject{
+    padding-left: 300px;
+    margin-top: 80px ;
+}
+
+.OptionInMainOnEvaluteProject{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+.OptionInMainOnEvaluteProject1{
+    display: grid;
+    width: 1500px;
+    grid-template-columns: repeat(4,auto);
+}
+
+.OptionInMainOnEvaluteProject2{
+    display: flex;
+    padding-left: 300px;
+}
+
+.OptionInMainOnEvaluteProjecth1{
+    padding-left: 300px;
+    padding-bottom: 60px;
+}
+
+@media only screen and (width : 1440px) {
+    .NewsOnPTDG{
+        padding-left: 150px;
+    }
+
+    .MainOnEvaluteProject{
+        padding-left: 150px;
+    }
+
+    .OptionInMainOnEvaluteProject1{
+        display: grid;
+        width: 1200px;
+        grid-template-columns: repeat(4,auto);
+    }
+
+    .OptionInMainOnEvaluteProject2{
+        
+        padding-left: 150px;
+    }
+
+    .OptionInMainOnEvaluteProjecth1{
+        padding-left: 150px;
+        padding-bottom: 30px;
+    }
+    
+
+}

@@ -6,9 +6,9 @@ import Representative from "../Reprenettative_Enterperrise_1";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 
 function Representative_Enterprise() {
-    const RE = [{ link: '', ImgURL: '/img/RE/ctgroup.png' }]
-    const RE2 = [{ link: '', ImgURL: '/img/RE/20220818133706-50e7_wm.jpg' }]
-    const RE3 = [{ link: '', ImgURL: '/img/RE/20230309151620-a9ea_wm.jpg' }]
+    const RE = [{ link: '', ImgURL: 'https://file4.batdongsan.com.vn/resize/1275x717/2023/07/29/20230729162038-29a2_wm.jpg' }]
+    const RE2 = [{ link: '', ImgURL: 'https://file4.batdongsan.com.vn/resize/1275x717/2023/07/29/20230729162038-29a2_wm.jpg' }]
+    const RE3 = [{ link: '', ImgURL: 'https://file4.batdongsan.com.vn/resize/1275x717/2023/07/29/20230729162038-29a2_wm.jpg' }]
     const RE4 = [{ link: '', ImgURL: '/img/RE/20230314082745-8c81_wm.jpg' }]
     const RE5 = [{ link: '', ImgURL: '/img/RE/ctgroup.png' }]
     const RE6 = [{ link: '', ImgURL: '/img/RE/sadeco.jpg' }]

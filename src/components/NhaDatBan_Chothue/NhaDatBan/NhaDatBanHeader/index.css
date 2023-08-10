@@ -173,6 +173,7 @@
     width: fit-content;
     position: absolute;
    
+
     z-index: 3;
 
 }
@@ -305,12 +306,13 @@
 }
 
 
-.OptionNDB{
+.OptionNDBpRICE{
     width: 178px ;
-    height: 436px;
+    height: 588px;
     padding-left: 20px;
     border: 1px solid #ebe5e5;
     border-radius: 4px ;
+   
     
 }
 
@@ -378,6 +380,25 @@
     background-color: white;
     z-index: 5;
 
+}
+
+.LastIntroduceOnNhaDatBan{
+    padding-top: 100px;
+}
+@media only screen and (max-width : 1440px) {
+    .MainSearchNDB {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        padding-left: 188px;
+        z-index: 0;
+    }
+
+    .MainNDB {
+        padding-top: 200px;
+        padding-left: 185px;
+        display: flex;
+    }
 }
 
 

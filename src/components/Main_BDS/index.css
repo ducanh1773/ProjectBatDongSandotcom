@@ -1,4 +1,4 @@
-.NewsBDSOnMain{
+.NewsBDSOnMain {
     padding-top: 550px;
     padding-bottom: 200px;
 }
@@ -9,51 +9,208 @@
     text-transform: capitalize;
 }
 
-.TinTucMainBDS{
-    padding-left: 330px;
+.TinTucMainBDS {
+    padding-left: 10%;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.SPClientOnMain{
+.SPClientOnMain {
     padding-bottom: 100px;
-    padding-left: 200px;
+    padding-left: 5%;
 }
 
-.DoanhNghiepTieuBieuOnMain{
+.DoanhNghiepTieuBieuOnMain {
     display: flex;
     justify-content: center;
     padding-bottom: 100px;
     padding-left: 200px;
 }
 
-.BaoChiNoiVeBDSMain{
+.BaoChiNoiVeBDSMain {
     display: flex;
-    
+
     padding-left: 290px;
 }
 
-.Link_Last_Page{
-    padding-right: 100px;
+.Link_Last_Page {
+    padding-right: 5%;
 }
 
-.Last_Page{
+.Last_Page {
     display: flex;
-    width:100%;
+    width: 100%;
     justify-content: center;
     align-items: center;
     background-color: lightgrey;
     margin-top: 50px;
     height: 120px;
-    
+
 }
 
-.Main_Introduce{
+.Main_Introduce {
     padding-top: 50px;
     display: flex;
     justify-content: center;
 }
 
-.Main_Introduce{
+.Main_Introduce {
     padding-bottom: 100px;
+}
+
+.AllNews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 38px;
+}
+
+.headerOutstanding{
+    padding-left: 300px;
+   
+}
+
+@media only screen and (max-width : 1440px) {
+    .headerOutstanding{
+        padding-left: 116px;
+       
+    }
+
+    .main_oustanding {
+        width: 100%;
+        padding-left: 2%;
+    }
+
+    .BDS_DD_Main1 {
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+        padding-left: 4%;
+    }
+
+    .bt_dd_main {
+        padding-left: 3%;
+    }
+
+    .TinTucMainBDS {
+        padding-left: 9%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 1211px;
+    }
+
+    .headerSP {
+        padding-left: 67px;
+    }
+
+    .All_SP_Client {
+        padding-left: 58px;
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto auto auto auto;
+        width: 1000px;
+    }
+
+    .DoanhNghiepTieuBieuOnMain {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 100px;
+        padding-left: 323px;
+        width: 1019px;
+        padding-left: 177px;
+    }
+
+    .BaoChiNoiVeBDSMain {
+        display: flex;
+        padding-left: 134px;
+    }
+
+
+    .n123 {
+        left: -91px !important;
+        position: absolute;
+    }
+
+    .SPClientOnMain {
+        padding-left: 0;
+    }
+
+    .splideReprsentEnterprise {}
+
+    .DNTB {
+        width: 1095px;
+    }
+
+    .SubjectBC2 {
+        margin: 0;
+        display: flex;
+        justify-content: end;
+        width: 639px;
+    }
+
+    .AllNews {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 44px;
+    }
+
+    .headerOutstanding {
+        padding-left: 137px;
+        display: flex;
+        align-items: center;
+    }
+
+    .Option_BaoChinoiveBDS2 {
+        padding-left: 83px;
+    }
+
+    .Introduce_BDS1 {
+        padding-left: 22px;
+    }
+
+    .AllOption_Introduce1 {
+        display: grid;
+        padding-left: 32px !important;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .AllOption_Introduce2 {
+        display: grid;
+        padding-left: 35px !important;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .NewsBDSOnMain {
+        padding-top: 200px;
+        padding-bottom: 84px;
+
+    }
+
+    .News_BDS_2 {
+        display: flex;
+        padding-left: 23px;
+        width: 848px;
+        height: 55px;
+        text-align: center;
+        justify-content: center;
+    }
+    .TinNB {
+        height: 376px;
+        align-items: center;
+        justify-content: center;
+        padding-left: 131px;
+    }
+
+    .Page_NewsMain {
+        padding-left: -49px;
+    }
+    .News_BDS_2 {
+        display: flex;
+        padding-left: 20px;
+        width: 848px;
+        height: 55px;
+        text-align: center;
+        justify-content: center;
+    }
 }

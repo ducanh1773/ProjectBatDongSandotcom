@@ -1,0 +1,38 @@
+.SubjectIterm{
+    padding-left: 20%;
+}
+
+.SubjectIterm h1{
+    font-size: 40px;
+}
+
+.AllOfNewsOnIterm{
+    padding-left: 15%;
+    display: flex;
+}
+
+.AllOfNewsOnItermAndNews{
+    display: flex;
+    
+}
+
+.HostOfItermNews{
+    display: flex;
+  
+
+}
+
+.HostOfItermNewsImg{
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 50%;
+}
+
+.HostOfItermNewsName{
+    margin: 0;
+}
+
+.InformationIterm{
+    width: 50%;
+}

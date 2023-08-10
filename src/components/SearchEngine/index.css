@@ -10,7 +10,7 @@
     background-color:rgba(0,0,0,0.6);
 }
 .searchEngine{
-    padding-left: 180px;
+    padding-left: 10%;
     display: flex;
     float: left;
     align-items: left;

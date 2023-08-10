@@ -1,15 +1,18 @@
 .search_bds_da_3 {
     background-color: rgba(0,0,0,0.6);
     height: 96;
-    width: 913;
+    width: 100%;
     padding: 16px;
     box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    border-radius: 7px  ;
+   
 }
 
 .search_bds_da {
     display: flex;
-    width: 913px;
+    width: 100%;
     height: 48px;
+    border-radius: 5px;
 
 
 
@@ -19,7 +22,7 @@
     outline: none;
     border: none;
     display: flex;
-    width: 169px;
+    width: 20%;
     height: 48px;
     align-items: center;
     background-color: white;

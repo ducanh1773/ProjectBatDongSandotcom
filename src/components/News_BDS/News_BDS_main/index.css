@@ -91,3 +91,23 @@
     height: 365px;
     padding-left: 76px;
 }
+
+@media only screen and (max-width : 1440px){
+    .News_BDS_2 {
+        display: flex;
+        padding-left: 33px;
+        width: 848px;
+        height: 55px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .TinNB {
+        height: 376px;
+        align-items: center;
+        justify-content: center;
+        padding-left: 147px;
+    }
+}
+
+

@@ -37,3 +37,45 @@
 .SubjectOnNewsMain:hover{
     color: rgb(196, 194, 194);
 }
+
+.MainPageOnPageNews4{
+    padding-left: 400px;
+    display: flex;
+  
+}
+
+.MainPageOnPageNews2{
+    padding-left: 300px; 
+    display: flex;
+     padding-top: 60px;
+}
+
+.MainPageOnPageNews3{
+    padding-left: 400px;
+    display: flex;
+}
+@media  only screen and (max-width : 1440px) {
+    .MainPageOnPageNews{
+        padding-left: 50px;
+      
+
+    }
+
+    .MainPageOnPageNews2{
+        padding-left: 100px;
+    }
+
+    .MainPageOnPageNews3{
+        padding-left: 200px;
+    }
+
+    .IntroduceOnPageNews{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .MainPageOnPageNews4{
+        padding-left: 200px;
+    }
+}

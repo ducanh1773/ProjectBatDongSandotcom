@@ -13,6 +13,8 @@ import EvaluteProjectMain from './components/EvaluteProject';
 import ItermNDB from './components/NhaDatBan_Chothue/ItermNDB';
 import Dangnhap from '../src/dangnhap'
 import DangKy from '../src/dangky'
+import ItermNewsBDS from '../src/components/NewsBDS/NewsBDSMain/NewsBDSIterm';
+
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 
 
@@ -31,6 +33,7 @@ function App() {
         <Route path='/ban-nha-o-pho-thi-sach-phuong-thang-tam' element = {<ItermNDB></ItermNDB>}></Route>
         <Route path='/dang-nhap-bds' element={<Dangnhap></Dangnhap>}></Route>
         <Route path='/dang-ky-bds' element = {<DangKy></DangKy>}></Route>
+        <Route path='/ItermTinTuc' element= {<ItermNewsBDS></ItermNewsBDS>}></Route>
       </Routes>
 
     </div>

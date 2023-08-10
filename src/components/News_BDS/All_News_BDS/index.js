@@ -3,12 +3,12 @@ import './index.css'
 import { useState } from 'react';
 import News_BDS_1 from "../News_BDS_1";
 function All_News_BDS() {
-    const News_1 = [{ link_bds: '', name: 'Xếp hàng chờ môi giới thoát hộ suất đầu tư nhà đất tỉnh', imgUrl: '/img/tin1.png' }]
-    const News_2 = [{ link_bds: '', name: 'chủ đầy tư BĐS bung hàng trở lại, giao dịch nhà đất có sớm "rã băng"?', imgUrl: '/img/tin2.jpg' }]
-    const News_3 = [{ link_bds: '', name: 'nhiều dự án BĐS vùng ven thắng khi ưu tiên "đánh bắt sân nhà', imgUrl: '/img/tin3.jpg' }]
-    const News_4 = [{ link_bds: '', name: 'chật vật thoát hàng vì lỡ mua căn hộ bình dương thời "đỉnh giá"', imgUrl: '/img/tin4.jpg' }]
-    const News_5 = [{ link_bds: '', name: 'tìm hiêu đường giới đỏ vành đai 4 qua các quận huyện của hà nội', imgUrl: '/img/tin5.jpg' }]
-    const News_6 = [{ link_bds: '', name: 'sau xây dựng trọn gói , viettel construction tham gia vào thị trường nội thất', imgUrl: '/img/tin6.webp' }]
+    const News_1 = [{ link_bds: '', name: 'Xếp hàng chờ môi giới thoát hộ suất đầu tư nhà đất tỉnh', imgUrl: 'https://img.iproperty.com.my/angel/610x342-crop/wp-content/uploads/sites/7/2023/08/Screenshot_2.jpg' }]
+    const News_2 = [{ link_bds: '', name: 'chủ đầy tư BĐS bung hàng trở lại, giao dịch nhà đất có sớm "rã băng"?', imgUrl: 'https://img.iproperty.com.my/angel/610x342-crop/wp-content/uploads/sites/7/2023/08/Screenshot_2.jpg' }]
+    const News_3 = [{ link_bds: '', name: 'nhiều dự án BĐS vùng ven thắng khi ưu tiên "đánh bắt sân nhà', imgUrl: 'https://img.iproperty.com.my/angel/610x342-crop/wp-content/uploads/sites/7/2023/08/Screenshot_2.jpg' }]
+    const News_4 = [{ link_bds: '', name: 'chật vật thoát hàng vì lỡ mua căn hộ bình dương thời "đỉnh giá"', imgUrl: 'https://img.iproperty.com.my/angel/610x342-crop/wp-content/uploads/sites/7/2023/08/Screenshot_2.jpg' }]
+    const News_5 = [{ link_bds: '', name: 'tìm hiêu đường giới đỏ vành đai 4 qua các quận huyện của hà nội', imgUrl: 'https://img.iproperty.com.my/angel/610x342-crop/wp-content/uploads/sites/7/2023/08/Screenshot_2.jpg' }]
+    const News_6 = [{ link_bds: '', name: 'sau xây dựng trọn gói , viettel construction tham gia vào thị trường nội thất', imgUrl: 'https://img.iproperty.com.my/angel/610x342-crop/wp-content/uploads/sites/7/2023/08/Screenshot_2.jpg ' }]
 
     const [hoveredElement, setHoveredElement] = useState(true);
     const [hoveredElement1, setHoveredElement1] = useState(null);
