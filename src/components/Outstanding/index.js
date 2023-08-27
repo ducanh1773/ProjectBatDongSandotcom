@@ -7,10 +7,12 @@ function Main_Oustanding() {
     return (
         <div>
             <div className="headerOutstanding">
-                <h1 className="headerOutstanding1">Dự án bất động sản nổi bật</h1>
-               <div className="headerOutstanding3">
-                <a className="headerOutstanding2"href="">Xem thêm</a>
-                <i className="fa fa-arrow-right"></i>
+                <div>
+                    <h1 className="headerOutstanding1">Dự án bất động sản nổi bật</h1>
+                </div>
+                <div className="headerOutstanding3">
+                    <a className="headerOutstanding2" href="">Xem thêm</a>
+                    <box-icon name='right-arrow-alt' color='#ff0202' size='12px' ></box-icon>
                 </div>
             </div>
             <div className="main_oustanding">

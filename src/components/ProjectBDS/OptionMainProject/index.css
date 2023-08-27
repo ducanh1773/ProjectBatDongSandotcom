@@ -1,151 +1,305 @@
-.LinkProject {
-    text-decoration: none;
-    color: black;
-
-}
-
-.ImgProject1 {
-    width: 240px;
-    height: 180px;
-}
-
-.ImgProject2,
-.ImgProject3 {
-    width: 119px;
-    height: 66px;
-
-}
-
-.ImgProject3 {
-    padding-left: 2px;
-}
-
-.TimeNewsProject {
-    width: 88px ;
-    background-color: rgb(201 255 237);
-    height: 24px;
-    color: rgb(20, 132, 18);
-    font-size: 12px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-
-.describeProject{
-    width:450px ;
-    height:40px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    text-transform: capitalize;
-}
-
-.AllOptionMainProject{
-    width:750px ;
-    height: 248px;
-    border: none;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
-    margin: 5px;
-    border-radius: 5px;
-}
-
-.AllOptionMainProject:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.AllEvaluteProject{
-    padding-left: 20px;
-}
-
-.EvaluteProject{
-    display: flex;
-}
-
-.EvaluteProject p{
-    margin: 0;
-    padding-left: 150px;
-}
-
-.EvaluteProject a{
-    text-decoration: none;
-    color: red;
-    display: flex;
-    align-items: center;
-
-}
-
-.ImgProjectExtraMain{
-    height: 180px;
-
-}
-
-.ImgProjectExtra{
-    width: 360px;
-    height: 300px;
-   
-}
-
-.SubJectProjectExtra{
-        color: white;
+@media screen and (min-width:1920px) and (max-width:2560px) {
+    .LinkProject {
+        text-decoration: none;
+        color: black;
+    
+    }
+    
+    .ImgProject1 {
+        width: 240px;
+        height: 180px;
+    }
+    
+    .ImgProject2,
+    .ImgProject3 {
+        width: 119px;
+        height: 66px;
+    
+    }
+    
+    .ImgProject3 {
+        padding-left: 2px;
+    }
+    
+    .TimeNewsProject {
+        width: 88px ;
+        background-color: rgb(201 255 237);
+        height: 24px;
+        color: rgb(20, 132, 18);
+        font-size: 12px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .describeProject{
+        width:450px ;
+        height:40px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        text-transform: capitalize;
+    }
+    
+    .AllOptionMainProject{
+        width:750px ;
+        height: 248px;
+        border: none;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+        margin: 5px;
+        border-radius: 5px;
+    }
+    
+    .AllOptionMainProject:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .AllEvaluteProject{
         padding-left: 20px;
+    }
+    
+    .EvaluteProject{
+        display: flex;
+    }
+    
+    .EvaluteProject p{
+        margin: 0;
+        padding-left: 150px;
+    }
+    
+    .EvaluteProject a{
+        text-decoration: none;
+        color: red;
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .ImgProjectExtraMain{
+        height: 180px;
+    
+    }
+    
+    .ImgProjectExtra{
+        width: 360px;
+        height: 300px;
+       
+    }
+    
+    .SubJectProjectExtra{
+            color: white;
+            padding-left: 20px;
+            padding-bottom: 10px;
+    }
+    
+    .SubJectProjectExtra h4{
+        width: 294px;
+        text-transform: capitalize;
+        margin: 0;
+        
+    }
+    
+    .SubJectProjectExtra p{
+        margin: 0;
+        font-size: 12px;
+    }
+    
+    .NewsOnProject{
+        
+    }
+    
+    .NewsOnProject1 a{
+        display: flex;
+        align-items: center;
+        padding-left: 217px;
+        
+    }
+    
+    .NewsOnProjectExtra h5{
+        margin: 0;
+        color: black;
+        text-transform: capitalize;
+    }
+    
+    .NewsOnProjectExtra h5:hover{
+        color: rgb(148, 148, 148);
+        
+    }
+    
+    .NewsOnProjectExtra p{
+        font-size: 12px;
+        color: black;
+        padding-top: 20px;
+    }
+    
+    .NewsOnProjectExtra{
+        padding-left: 20px;
+        width: 224px;
+    }
+    
+    .NewsOnProjectMainExtra{
+        padding: 3px;
         padding-bottom: 10px;
-}
-
-.SubJectProjectExtra h4{
-    width: 294px;
-    text-transform: capitalize;
-    margin: 0;
+        border-bottom: 1px solid rgb(247, 243, 243);
+    }
     
+    .IntroduceProjectMain{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding-left: 250px;
+    }
 }
 
-.SubJectProjectExtra p{
-    margin: 0;
-    font-size: 12px;
-}
-
-.NewsOnProject{
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .LinkProject {
+        text-decoration: none;
+        color: black;
     
-}
-
-.NewsOnProject1 a{
-    display: flex;
-    align-items: center;
-    padding-left: 217px;
+    }
     
-}
-
-.NewsOnProjectExtra h5{
-    margin: 0;
-    color: black;
-    text-transform: capitalize;
-}
-
-.NewsOnProjectExtra h5:hover{
-    color: rgb(148, 148, 148);
+    .ImgProject1 {
+        width: 240px;
+        height: 180px;
+    }
     
-}
-
-.NewsOnProjectExtra p{
-    font-size: 12px;
-    color: black;
-    padding-top: 20px;
-}
-
-.NewsOnProjectExtra{
-    padding-left: 20px;
-    width: 224px;
-}
-
-.NewsOnProjectMainExtra{
-    padding: 3px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid rgb(247, 243, 243);
-}
-
-.IntroduceProjectMain{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    padding-left: 250px;
+    .ImgProject2,
+    .ImgProject3 {
+        width: 119px;
+        height: 66px;
+    
+    }
+    
+    .ImgProject3 {
+        padding-left: 2px;
+    }
+    
+    .TimeNewsProject {
+        width: 88px ;
+        background-color: rgb(201 255 237);
+        height: 24px;
+        color: rgb(20, 132, 18);
+        font-size: 12px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .describeProject{
+        width:450px ;
+        height:40px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        text-transform: capitalize;
+    }
+    
+    .AllOptionMainProject{
+        width:750px ;
+        height: 248px;
+        border: none;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+        margin: 5px;
+        border-radius: 5px;
+    }
+    
+    .AllOptionMainProject:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .AllEvaluteProject{
+       display: none;
+    }
+    
+    .EvaluteProject{
+        display: flex;
+    }
+    
+    .EvaluteProject p{
+        margin: 0;
+        padding-left: 150px;
+    }
+    
+    .EvaluteProject a{
+        text-decoration: none;
+        color: red;
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .ImgProjectExtraMain{
+        height: 180px;
+    
+    }
+    
+    .ImgProjectExtra{
+        width: 360px;
+        height: 300px;
+       
+    }
+    
+    .SubJectProjectExtra{
+            color: white;
+            padding-left: 20px;
+            padding-bottom: 10px;
+    }
+    
+    .SubJectProjectExtra h4{
+        width: 294px;
+        text-transform: capitalize;
+        margin: 0;
+        
+    }
+    
+    .SubJectProjectExtra p{
+        margin: 0;
+        font-size: 12px;
+    }
+    
+    .NewsOnProject{
+        
+    }
+    
+    .NewsOnProject1 a{
+        display: flex;
+        align-items: center;
+        padding-left: 217px;
+        
+    }
+    
+    .NewsOnProjectExtra h5{
+        margin: 0;
+        color: black;
+        text-transform: capitalize;
+    }
+    
+    .NewsOnProjectExtra h5:hover{
+        color: rgb(148, 148, 148);
+        
+    }
+    
+    .NewsOnProjectExtra p{
+        font-size: 12px;
+        color: black;
+        padding-top: 20px;
+    }
+    
+    .NewsOnProjectExtra{
+        padding-left: 20px;
+        width: 224px;
+    }
+    
+    .NewsOnProjectMainExtra{
+        padding: 3px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(247, 243, 243);
+    }
+    
+    .IntroduceProjectMain{
+        display: none;
+    }
 }

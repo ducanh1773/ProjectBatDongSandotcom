@@ -15,7 +15,7 @@ import LastIntroduceMain from '../Last_Introduce_Main'
 function Main_Page_BDS(){
     return(
         <div>
-            <div>
+            <div className="HeaderOnMainBatDongSan">
             <Header></Header>
             </div>
             <div>
@@ -49,7 +49,7 @@ function Main_Page_BDS(){
                 <div className="Last_Page">
                     <a href="" className="Link_Last_Page"><img src="https://staticfile.batdongsan.com.vn/images/box-link-footer/apagf-horizontal.svg"></img></a>
                     <a href="" className="Link_Last_Page"><img src="https://staticfile.batdongsan.com.vn/images/box-link-footer/ares-horizontal.svg"></img></a>
-                    <a href=""><img src="https://staticfile.batdongsan.com.vn/images/box-link-footer/property-report.svg"></img></a>
+                    <a href="" className="Link_Last_Page2"><img src="https://staticfile.batdongsan.com.vn/images/box-link-footer/property-report.svg"></img></a>
                 </div>
             </div>
             <div className="Main_Introduce">

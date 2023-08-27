@@ -1,296 +1,590 @@
-.LastIntroduce{
-    display: grid;
-    align-items: center;
-    width: 1850px;
-    padding-left: 100px;
-    padding-top: 37px;
-    grid-template-columns: auto auto auto auto;
+@media screen and (min-width:1440px) and (max-width:2560px) {
+    .LastIntroduce{
+        display: grid;
+        align-items: center;
+        width: 1850px;
+        padding-left: 100px;
+        padding-top: 37px;
+        grid-template-columns: auto auto auto auto;
+        
+    }
     
-}
-
-.LastIntroduce1{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-    width: 200px;
-    padding-right: 150px;
-
-
-}
-
-.LastIntroduce2{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-
-.LastIntroduce2_1{
-    width: 370px;
-    display: grid;
-}
-
-.LastIntroduce2_1_1{
-    display: flex;
-    align-items: center;
-}
-
-.Link_Introduce_LastMain{
-    text-decoration: none;
-    color: black;
-    padding-bottom: 10px;
-}
-
-.Link_Introduce_LastMain:hover{
-    color: rgb(165, 164, 164);
-}
-
-
-.IconAppAll{
-    display: flex;
-}
-.Icon_App{
-    width: 171px;
-    height: 45px;
-}
-
-.LastIntroduce3{
-    display: grid;
-    padding-left: 200px;
-}
-
-.InputEmailLast{
+    .LastIntroduce1{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        width: 200px;
+        padding-right: 150px;
     
-    display: flex;
-    width: 300px;
-    height: 50px;
-    align-items: center;
-    border-radius: 7px;
-    background-color: white;
-    border: 1px solid white;
-}
-
-.InputEmailLast:hover{
-    border: 1px solid black;
-}
-
-.SendEmail{
-    padding-right: 78px;
-    width: 150px;
-    padding-left: 20px;
-    border: none;
-    outline: none;
     
-}
-
-.SendEmail2{
-   
-}
-
-.ButtonSendEmail{
-    background-color: rgb(237 70 70);
-    border: none;
-    cursor: pointer;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 6px;
-}
-.ButtonSendEmail:hover{
-    background-color: rgb(236, 105, 105);
-}
-
-.ChoseCountry{
-   border: 1px solid rgb(121, 119, 119);
-   
-    width: 167px;
-    height: 34px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    border-radius: 4px;
+    }
     
-
-}
-
-.ChoseCountry:hover{
-    border: 1px solid black;
-    position: relative;
+    .LastIntroduce2{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
     
-}
-
-.IconCountry{
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 34px;
-    display: flex;
-    align-items: center;
+    .LastIntroduce2_1{
+        width: 370px;
+        display: grid;
+    }
     
-}
-
-.Country{
-    margin: 0;
+    .LastIntroduce2_1_1{
+        display: flex;
+        align-items: center;
+    }
     
-}
-
-.IconCountry2{
-    padding-left: 28px;
-    height: 34px;
-    display: flex;
-    align-items: center;
-}
-
-.IconCountry_2{
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
+    .Link_Introduce_LastMain{
+        text-decoration: none;
+        color: black;
+        padding-bottom: 10px;
+    }
     
-}
-
-.ChoseTranslate{
-    display: flex;
-    align-items: center;
-}
-
-.LetterCountry{
-    margin: 0;
-    padding-left: 10px;
-}
-
-.ChoseTranslate{
-    padding-left: 10px;
-    margin-top: 10px;
-}
-
-.LastIntroduce2{
-    padding-left: 100px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid black;
+    .Link_Introduce_LastMain:hover{
+        color: rgb(165, 164, 164);
+    }
     
-}
-
-.CTCP{
-    font-size: 14px;
-}
-
-.LastIntroduce3{
-    padding-left: 5px;
-    padding-right: 130px;
-}
-
-.BackGRIntroduce{
-    background-color: #cdcdcd;
     
-}
-
-.AllChoseTranslateBackGR{
-    background-color: #f3f3f3;
-    height: 300px;
-    display: grid;
-    grid-template-rows: auto;
-    width: 169px;
-    position: absolute;
-}
-
-.ChoseTranslate{
-    cursor: pointer;
-    padding-top: 10px;
-}
-.ChoseTranslate:hover{
-    background-color: #c2bdbd;
-}
-
-.AllChoseTranslateBackGR1{
-    padding-top: 10px;
-    width: 169px;
-}
-.LastIntroduce1_2{
-    width: 200px;
-    padding-left: 10px;
-    padding-right: 80px;
-}
-
-.LastIntroduce4{
-    padding-right: 180px;
-}
-
-.AllBranch{
-   display: grid;
-   grid-template-columns: auto auto auto;
-   transition: height 4s;
-   transition-delay: 1s;
-
-}
-
-.AllBranch:hover{
-    width: 100%;
-    height: 100%;
-}
-
-.BranchBDS1{
-    width: 350px;
-    display: grid;
-    grid-template-rows: auto auto auto;
-}
-
-.OptionBranch{
-    display: flex;
-    align-items: center;
-    height: 92px;
-}
-
-.AllOptionBranch{
-    padding-left: 100px;
-}
+    .IconAppAll{
+        display: flex;
+    }
+    .Icon_App{
+        width: 171px;
+        height: 45px;
+    }
     
-
-.LicenseAll{
-    padding-left: 100px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding-top: 40px;
-    padding-bottom: 10px;
-    border-top: 1px solid rgb(117, 115, 115);
+    .LastIntroduce3{
+        display: grid;
+        padding-left: 200px;
+    }
+    
+    .InputEmailLast{
+        
+        display: flex;
+        width: 300px;
+        height: 50px;
+        align-items: center;
+        border-radius: 7px;
+        background-color: white;
+        border: 1px solid white;
+    }
+    
+    .InputEmailLast:hover{
+        border: 1px solid black;
+    }
+    
+    .SendEmail{
+        padding-right: 78px;
+        width: 150px;
+        padding-left: 20px;
+        border: none;
+        outline: none;
+        
+    }
+    
+    .SendEmail2{
+       
+    }
+    
+    .ButtonSendEmail{
+        background-color: rgb(237 70 70);
+        border: none;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+    }
+    .ButtonSendEmail:hover{
+        background-color: rgb(236, 105, 105);
+    }
+    
+    .ChoseCountry{
+       border: 1px solid rgb(121, 119, 119);
+       
+        width: 167px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 4px;
+        
+    
+    }
+    
+    .ChoseCountry:hover{
+        border: 1px solid black;
+        position: relative;
+        
+    }
+    
+    .IconCountry{
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .Country{
+        margin: 0;
+        
+    }
+    
+    .IconCountry2{
+        padding-left: 28px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .IconCountry_2{
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        
+    }
+    
+    .ChoseTranslate{
+        display: flex;
+        align-items: center;
+    }
+    
+    .LetterCountry{
+        margin: 0;
+        padding-left: 10px;
+    }
+    
+    .ChoseTranslate{
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+    
+    .LastIntroduce2{
+        padding-left: 100px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid black;
+        
+    }
+    
+    .CTCP{
+        font-size: 14px;
+    }
+    
+    .LastIntroduce3{
+        padding-left: 5px;
+        padding-right: 130px;
+    }
+    
+    .BackGRIntroduce{
+        background-color: #cdcdcd;
+        
+    }
+    
+    .AllChoseTranslateBackGR{
+        background-color: #f3f3f3;
+        height: 300px;
+        display: grid;
+        grid-template-rows: auto;
+        width: 169px;
+        position: absolute;
+    }
+    
+    .ChoseTranslate{
+        cursor: pointer;
+        padding-top: 10px;
+    }
+    .ChoseTranslate:hover{
+        background-color: #c2bdbd;
+    }
+    
+    .AllChoseTranslateBackGR1{
+        padding-top: 10px;
+        width: 169px;
+    }
+    .LastIntroduce1_2{
+        width: 200px;
+        padding-left: 10px;
+        padding-right: 80px;
+    }
+    
+    .LastIntroduce4{
+        padding-right: 180px;
+    }
+    
+    .AllBranch{
+       display: grid;
+       grid-template-columns: auto auto auto;
+       transition: height 4s;
+       transition-delay: 1s;
+    
+    }
+    
+    .AllBranch:hover{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .BranchBDS1{
+        width: 350px;
+        display: grid;
+        grid-template-rows: auto auto auto;
+    }
+    
+    .OptionBranch{
+        display: flex;
+        align-items: center;
+        height: 92px;
+    }
+    
+    .AllOptionBranch{
+        padding-left: 100px;
+    }
+        
+    
+    .LicenseAll{
+        padding-left: 100px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        border-top: 1px solid rgb(117, 115, 115);
+    }
+    
+    .LicenseAll1{
+        width: fit-content;
+    }
+    
+    .LicenseAll2{
+        display: flex;
+        width: 455px;
+    }
+    
+    .IconLicense3{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .IconLecenseTrade{
+      left: 10px;
+      
+    }
+    
+    .IconLicense{
+        display: grid;
+        padding-top: 14px;
+        padding-left: 140px;
+        grid-template-columns: auto  auto auto;
+    }
+    
+    .IconLicense1{
+        filter: brightness(30%);
+        cursor: pointer;
+        
+    }
+    
+    .IconLicense1:hover{
+        filter: brightness(100%);
+    }
+    
+    .BranchBDS1{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
 
-.LicenseAll1{
-    width: fit-content;
-}
-
-.LicenseAll2{
-    display: flex;
-    width: 455px;
-}
-
-.IconLicense3{
-    width: 40px;
-    height: 40px;
-}
-
-.IconLecenseTrade{
-  left: 10px;
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .LastIntroduce{
+        display: grid;
+        align-items: center;
+        width: 100px;
+       
+        padding-top: 37px;
+        grid-template-columns: auto auto;
+        
+    }
+    
+    .LastIntroduce1{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        width: 200px;
+        padding-right: 150px;
+    
+    
+    }
+    
+    .LastIntroduce2{
+        display: grid;
+        grid-template-columns: auto auto ;
+        width: 200px;
+    }
+    
+    .LastIntroduce2_1{
+        width: 370px;
+        display: grid;
+    }
+    
+    .LastIntroduce2_1_1{
+        display: flex;
+        align-items: center;
+    }
+    
+    .Link_Introduce_LastMain{
+        text-decoration: none;
+        color: black;
+        padding-bottom: 10px;
+    }
+    
+    .Link_Introduce_LastMain:hover{
+        color: rgb(165, 164, 164);
+    }
+    
+    
+    .IconAppAll{
+        display: flex;
+    }
+    .Icon_App{
+        width: 171px;
+        height: 45px;
+    }
+    
+    .LastIntroduce3{
+        display: grid;
+        padding-left: 200px;
+    }
+    
+    .InputEmailLast{
+        
+        display: flex;
+        width: 300px;
+        height: 50px;
+        align-items: center;
+        border-radius: 7px;
+        background-color: white;
+        border: 1px solid white;
+    }
+    
+    .InputEmailLast:hover{
+        border: 1px solid black;
+    }
+    
+    .SendEmail{
+        padding-right: 78px;
+        width: 150px;
+        padding-left: 20px;
+        border: none;
+        outline: none;
+        
+    }
+    
+    .SendEmail2{
+       
+    }
+    
+    .ButtonSendEmail{
+        background-color: rgb(237 70 70);
+        border: none;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+    }
+    .ButtonSendEmail:hover{
+        background-color: rgb(236, 105, 105);
+    }
+    
+    .ChoseCountry{
+       border: 1px solid rgb(121, 119, 119);
+       
+        width: 167px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 4px;
+        
+    
+    }
+    
+    .ChoseCountry:hover{
+        border: 1px solid black;
+        position: relative;
+        
+    }
+    
+    .IconCountry{
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .Country{
+        margin: 0;
+        
+    }
+    
+    .IconCountry2{
+        padding-left: 28px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .IconCountry_2{
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        
+    }
+    
+    .ChoseTranslate{
+        display: flex;
+        align-items: center;
+    }
+    
+    .LetterCountry{
+        margin: 0;
+        padding-left: 10px;
+    }
+    
+    .ChoseTranslate{
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+    
   
-}
-
-.IconLicense{
-    display: grid;
-    padding-top: 14px;
-    padding-left: 140px;
-    grid-template-columns: auto  auto auto;
-}
-
-.IconLicense1{
-    filter: brightness(30%);
-    cursor: pointer;
+    .CTCP{
+        font-size: 14px;
+    }
     
-}
-
-.IconLicense1:hover{
-    filter: brightness(100%);
-}
-
-.BranchBDS1{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    .LastIntroduce3{
+        padding-left: 5px;
+        padding-right: 130px;
+    }
+    
+    .BackGRIntroduce{
+        width: 1336px;
+        background-color: #cdcdcd;
+        
+    }
+    
+    .AllChoseTranslateBackGR{
+        background-color: #f3f3f3;
+        height: 300px;
+        display: grid;
+        grid-template-rows: auto;
+        width: 169px;
+        position: absolute;
+    }
+    
+    .ChoseTranslate{
+        cursor: pointer;
+        padding-top: 10px;
+    }
+    .ChoseTranslate:hover{
+        background-color: #c2bdbd;
+    }
+    
+    .AllChoseTranslateBackGR1{
+        padding-top: 10px;
+        width: 169px;
+    }
+    .LastIntroduce1_2{
+        width: 200px;
+        padding-left: 10px;
+        padding-right: 80px;
+    }
+    
+    .LastIntroduce4{
+        padding-right: 180px;
+    }
+    
+    .AllBranch{
+       display: grid;
+       grid-template-columns: auto auto;
+       width: 50%;
+       grid-template-rows: auto auto;
+      
+    }
+    
+    
+    
+    .BranchBDS1{
+        width: 350px;
+        display: grid;
+        grid-template-rows: auto auto auto;
+    }
+    
+    .OptionBranch{
+        display: flex;
+        align-items: center;
+        height: 92px;
+    }
+    
+    .AllOptionBranch{
+        
+    }
+        
+    
+    .LicenseAll{
+        display: grid;
+        grid-template-columns: auto auto ;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        border-top: 1px solid rgb(117, 115, 115);
+        width: 50%;
+    }
+    
+    .LicenseAll1{
+        width:400px;
+    }
+    
+    .LicenseAll2{
+        display: flex;
+        width: 350px;
+    }
+    
+    .IconLicense3{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .IconLecenseTrade{
+      left: 10px;
+      
+    }
+    
+    .IconLicense{
+        display: grid;
+        padding-top: 14px;
+        padding-left: 140px;
+        grid-template-columns: auto  auto auto;
+    }
+    
+    .IconLicense1{
+        filter: brightness(30%);
+        cursor: pointer;
+        
+    }
+    
+    .IconLicense1:hover{
+        filter: brightness(100%);
+    }
+    
+    .BranchBDS1{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }

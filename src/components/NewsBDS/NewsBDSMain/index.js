@@ -47,7 +47,7 @@ function NewsBDSMain() {
                 {showElement &&
                     <div style={{ display: 'flex' }}>
                         <a href="" style={{ textDecoration: 'none', color: 'black', display: 'flex' }}>
-                            <div style={{ paddingLeft: '200px', paddingRight: '20px' }}>
+                            <div  className="Search2OnNewsBDS1">
                                 <box-icon name='home' color='#c3c0c0' ></box-icon>
                             </div>
                             <div>
@@ -57,10 +57,10 @@ function NewsBDSMain() {
                                 <p style={{ margin: '0', color: '#c3c0c0', paddingLeft: '30px' }}>Tin tức</p>
                             </div>
                         </a>
-                        <div style={{ width: '1000px' }}>
+                        <div  className="Search2OnNewsBDS">
 
                         </div>
-                        <div style={{ display: 'flex', cursor: 'pointer' }} onClick={handleClick}>
+                        <div style={{ display: 'flex', cursor: 'pointer' }} onClick={handleClick} >
                             <box-icon name='search-alt-2'  ></box-icon>
                             <p style={{ margin: '0', color: '#c3c0c0', paddingLeft: '30px' }}>Hướng dẫn tìm kiếm</p>
                         </div>
@@ -95,16 +95,16 @@ function NewsBDSMain() {
             </div>
             <div  className="MainPageOnPageNews4">
                 <div>
-                    <div style={{ height: '200px', }}>
+                    <div  className="ImgOnmostInformationOnNews">
                         <a href="">
-                            <img src="https://img.iproperty.com.my/angel/750x1000-fit/wp-content/uploads/sites/7/2023/08/view-HBN-nhin-ve-khu-kenh-dao.png" className="" style={{ filter: 'grayscale(60%)', width: '800px', height: ' 450px' }}></img>
+                            <img src="https://img.iproperty.com.my/angel/750x1000-fit/wp-content/uploads/sites/7/2023/08/view-HBN-nhin-ve-khu-kenh-dao.png" className="" ></img>
                         </a>
                     </div>
-                    <div style={{ height: '280px', color: 'white', paddingLeft: '20px' }}>
+                    <div className="InformationOfMostInformationOnNews">
                         <a href="" style={{ color: 'white', textDecoration: 'none', zIndex: '5', position: 'absolute' }}>
                             <p>04/08/2023 08:00 Tin tức</p>
                             <h3>Honas Residence - Căn hộ 1.3 tỷ hâm nóng thị trường bất động sản</h3>
-                            <p style={{ width: '600px', height: '100px', textOverflow: 'ellipsis', zIndex: '5' }}>Nhu cần ở thực luôn hiện hữu , những dự án có vị trí thuận lợi , chính sách bán hàng tốt , giá sát với nhu cầu của nhóm khách hàng trẻ mong muốn sở hữu tổ ấm riêng luôn có sức hút nhất định. Honas Residence - căn hộ có giá chỉ từ 1.3 tỷ có thể nối là một trong những dự án góp phần tăng nhiệt cho thị trường BĐS giữa lúc thị trường đang có dấu hiệu ấm dần.</p>
+                            <p >Nhu cần ở thực luôn hiện hữu , những dự án có vị trí thuận lợi , chính sách bán hàng tốt , giá sát với nhu cầu của nhóm khách hàng trẻ mong muốn sở hữu tổ ấm riêng luôn có sức hút nhất định. Honas Residence - căn hộ có giá chỉ từ 1.3 tỷ có thể nối là một trong những dự án góp phần tăng nhiệt cho thị trường BĐS giữa lúc thị trường đang có dấu hiệu ấm dần.</p>
                         </a>
                     </div>
                 </div>

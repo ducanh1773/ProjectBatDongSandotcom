@@ -1,48 +1,495 @@
-.bdsfy_side1{
-    display: flex;
-    justify-content: center;
-    padding-left: 38px;
-    
+
+
+
+
+@media screen and (min-width:1920px) and (max-width:2000px) {
+    .openMore {
+       
+
+    }
+
+    .SubjectBDSFY {
+        padding-left: 9%;
+    }
+
+    .bdsfy_side1 {
+        display: flex;
+        padding-left: 9%;
+        
+
+
+    }
+
+    .icon_bdsfy {
+        display: flex;
+        align-items: center;
+        height: 9px;
+        justify-content: end;
+        color: white;
+    }
+
+    .number_pic {
+        padding: 5px;
+    }
+
+    .font_letter {
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .BDS_FY5 {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 0;
+        padding-top: 14px;
+        display: block;
+        height: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .BDS_FY2 {
+        padding-left: 10px;
+
+    }
+
+    .BDS_FY4 {
+        font-weight: 0;
+        margin: 0;
+    }
+
+    .BDS_FY3 {
+        display: flex;
+        padding-top: 10px;
+
+    }
+
+    .BDS_FY6 {
+        color: red;
+        margin: 0;
+    }
+
+    .date_bdsfy {
+        margin: 0;
+        font-size: 10px;
+    }
+
+    .date_bdsfy2 {
+
+        display: flex;
+        align-items: center;
+    }
+
+    .icon_heart_bdsfy {
+        width: 160px;
+        display: flex;
+        justify-content: end;
+
+    }
+
+    .icon_bds_fy {
+        color: black;
+
+    }
+
+    .icon_bds_fy_2 {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        border-color: rgba(0, 0, 0, 0.1);
+
+    }
+
+    .BDSfy_1 {
+        width: 262px;
+        height: 280px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+        background-color: white;
+        padding-bottom: 20px;
+        margin-bottom: 20%;
+        margin-right: 54px;
+    }
+
+    .BDSfy_image {
+        width: 258px;
+        height: 99px;
+    }
+
+    .openMore_1 {
+
+        width: 200px;
+        height: 40px;
+        border-radius: 6px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background-color: white;
+        cursor: pointer;
+        margin-left: 39%;
+
+    }
+
+    .openMore_1:hover {
+        background-color: rgba(185, 179, 179, 0.05);
+    }
+
+    .openMore_3 {
+       
+        padding-left: 40%;
+
+    }
+
+    .openMore_2 {
+        width: 150px;
+        height: 40px;
+        border-radius: 6px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .openMore_2:hover {
+        background-color: rgba(185, 179, 179, 0.05);
+    }
+
+    .BDSfy_image_1 {
+        width: 262px;
+        height: 121px;
+    }
+
+    .Main_bdsfy{
+        margin-left: 20%;
+    }
+
+
 }
 
-.Main_bdsfy{
-    padding-right: 36px;
-    padding-bottom: 36px;
+@media screen and (min-width:1440px) {
+    .openMore {
+       
+
+    }
+
+    .SubjectBDSFY {
+        padding-left: 9%;
+    }
+
+    .bdsfy_side1 {
+        display: flex;
+        padding-left: 5%;
+        
+
+
+    }
+
+    .icon_bdsfy {
+        display: flex;
+        align-items: center;
+        height: 9px;
+        justify-content: end;
+        color: white;
+    }
+
+    .number_pic {
+        padding: 5px;
+    }
+
+    .font_letter {
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .BDS_FY5 {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 0;
+        padding-top: 14px;
+        display: block;
+        height: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .BDS_FY2 {
+        padding-left: 10px;
+
+    }
+
+    .BDS_FY4 {
+        font-weight: 0;
+        margin: 0;
+    }
+
+    .BDS_FY3 {
+        display: flex;
+        padding-top: 10px;
+
+    }
+
+    .BDS_FY6 {
+        color: red;
+        margin: 0;
+    }
+
+    .date_bdsfy {
+        margin: 0;
+        font-size: 10px;
+    }
+
+    .date_bdsfy2 {
+
+        display: flex;
+        align-items: center;
+    }
+
+    .icon_heart_bdsfy {
+        width: 160px;
+        display: flex;
+        justify-content: end;
+
+    }
+
+    .icon_bds_fy {
+        color: black;
+
+    }
+
+    .icon_bds_fy_2 {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        border-color: rgba(0, 0, 0, 0.1);
+
+    }
+
+    .BDSfy_1 {
+        width: 262px;
+        height: 280px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+        background-color: white;
+        padding-bottom: 20px;
+        margin-bottom: 20%;
+        margin-right: 54px;
+    }
+
+    .BDSfy_image {
+        width: 258px;
+        height: 99px;
+    }
+
+    .openMore_1 {
+
+        width: 200px;
+        height: 40px;
+        border-radius: 6px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background-color: white;
+        cursor: pointer;
+        margin-left: 39%;
+
+    }
+
+    .openMore_1:hover {
+        background-color: rgba(185, 179, 179, 0.05);
+    }
+
+    .openMore_3 {
+       
+        padding-left: 40%;
+
+    }
+
+    .openMore_2 {
+        width: 150px;
+        height: 40px;
+        border-radius: 6px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .openMore_2:hover {
+        background-color: rgba(185, 179, 179, 0.05);
+    }
+
+    .BDSfy_image_1 {
+        width: 262px;
+        height: 121px;
+    }
+
+    .Main_bdsfy{
+        margin-left: 20%;
+    }
 }
 
-.openMore{
-    display: flex;
-    justify-content: center;
-}
 
-.openMore_1{
-    
-    width: 150px;
-    height: 40px;
-    border-radius: 6px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: white;
-    cursor: pointer;
-}
-.openMore_1:hover{
-    background-color: rgba(185, 179, 179, 0.05);
-}
 
-.openMore_3{
-    display: flex;
-    justify-content: center;
-}
 
-.openMore_2{
-    width: 150px;
-    height: 40px;
-    border-radius: 6px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: white;
-    cursor: pointer;
-}
 
-.openMore_2:hover{
-    background-color: rgba(185, 179, 179, 0.05);
-}
 
+
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:999px) {
+
+    .openMore {
+        display: flex;
+        justify-content: center;
+    }
+
+    .icon_bdsfy {
+        display: flex;
+        align-items: center;
+        height: 9px;
+        justify-content: end;
+        color: white;
+    }
+
+    .number_pic {
+        padding: 5px;
+    }
+
+    .font_letter {
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .BDS_FY5 {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 0;
+        padding-top: 14px;
+        display: block;
+        height: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .BDS_FY2 {
+        padding-left: 10px;
+
+    }
+
+    .BDS_FY4 {
+        font-weight: 0;
+        margin: 0;
+    }
+
+    .BDS_FY3 {
+        display: flex;
+        padding-top: 10px;
+
+    }
+
+    .BDS_FY6 {
+        color: red;
+        margin: 0;
+    }
+
+    .date_bdsfy {
+        margin: 0;
+        font-size: 10px;
+    }
+
+    .date_bdsfy2 {
+
+        display: flex;
+        align-items: center;
+    }
+
+    .icon_heart_bdsfy {
+        width: 160px;
+        display: flex;
+        justify-content: end;
+
+    }
+
+    .icon_bds_fy {
+        color: black;
+
+    }
+
+    .icon_bds_fy_2 {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        border-color: rgba(0, 0, 0, 0.1);
+
+    }
+
+    .bdsfy_side1 {
+        display: grid;
+
+    }
+
+    .BDSfy_1 {
+        width: 700px;
+        height: 280px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+        background-color: white;
+    }
+
+    .BDSfy_image {
+        width: 258px;
+        height: 99px;
+    }
+
+    .BDSfy_1 {
+        width: 670px;
+        height: 280px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+        background-color: white;
+        margin-bottom: 5%;
+    }
+
+    .openMore_1 {
+
+        width: 150px;
+        height: 40px;
+        border-radius: 6px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background-color: white;
+        cursor: pointer;
+
+    }
+
+    .openMore_1:hover {
+        background-color: rgba(185, 179, 179, 0.05);
+    }
+
+    .openMore_3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .openMore_2 {
+        width: 150px;
+        height: 40px;
+        border-radius: 6px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .openMore_2:hover {
+        background-color: rgba(185, 179, 179, 0.05);
+    }
+
+    .BDSfy_image_1 {
+        width: 669px;
+        height: 121px;
+    }
+}

@@ -1,196 +1,402 @@
-.ImgNDB {
-    width: 461px;
-    height: 233px;
-}
+  @media screen and (min-width:1440px) and (max-width:2560px) {
+      .ImgNDB {
+          width: 461px;
+          height: 233px;
+      }
 
-.imgViewNDB {
-    width: 232px;
-    height: 116px;
-}
+      .imgViewNDB {
+          width: 232px;
+          height: 116px;
+      }
 
-.LinkMainNDB {
-    text-decoration: none;
-    color: black;
-    z-index: 1;
-}
+      .LinkMainNDB {
+          text-decoration: none;
+          color: black;
+          z-index: 1;
+      }
 
-.imgLocationNDB,
-.ImgNDB2 {
-    width: 114px;
-    height: 114px;
-}
-
-
-.ImgMainNDB {
-    display: flex;
-    height: 186px;
-}
-
-.IconNumberImgMain {
-    display: flex;
-    color: white;
-    padding-left: 630px;
-    align-items: center;
-
-}
-
-.NumberImg {
-    font-size: 18px;
-}
-
-.SubjectNDB {
-    font-weight: 700;
-    font-size: 16px;
-    text-transform: uppercase;
-}
-
-.InformationNDB p,
-.InformationNDB h5 {
-    margin: 0;
-}
-
-.InformationNDB {
-    display: flex;
-    align-items: center;
-    height: 40px;
-
-}
-
-.InformationNDB p {
-    margin: 0;
-}
-
-.PriceNDB,
-.acrageNDB {
-    font-size: 16px;
-    color: rgb(219, 33, 33);
-}
-
-.SpaceBettwenInformationNDB {
-    margin: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+      .imgLocationNDB,
+      .ImgNDB2 {
+          width: 114px;
+          height: 114px;
+      }
 
 
+      .ImgMainNDB {
+          display: flex;
+          height: 186px;
+      }
 
-.DescribeNDB2 {
-    overflow-x: hidden;
-    height: 47px;
-    width: 650px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-size: 16px;
+      .IconNumberImgMain {
+          display: flex;
+          color: white;
+          padding-left: 630px;
+          align-items: center;
 
-}
+      }
 
-.ImgHostNDB {
-    width: 30px;
-    height: 30px;
-}
+      .NumberImg {
+          font-size: 18px;
+      }
 
-.ImformationHostMain {
-    display: flex;
-}
+      .SubjectNDB {
+          font-weight: 700;
+          font-size: 16px;
+          text-transform: uppercase;
+      }
+
+      .InformationNDB p,
+      .InformationNDB h5 {
+          margin: 0;
+      }
+
+      .InformationNDB {
+          display: flex;
+          align-items: center;
+          height: 40px;
+
+      }
+
+      .InformationNDB p {
+          margin: 0;
+      }
+
+      .PriceNDB,
+      .acrageNDB {
+          font-size: 16px;
+          color: rgb(219, 33, 33);
+      }
+
+      .SpaceBettwenInformationNDB {
+          margin: 0;
+          padding-left: 10px;
+          padding-right: 10px;
+      }
 
 
-.NameImg_Host {
-    display: flex;
-    margin: 0;
-    align-items: center;
-}
+
+      .DescribeNDB2 {
+          overflow-x: hidden;
+          height: 47px;
+          width: 650px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          font-size: 16px;
+
+      }
+
+      .ImgHostNDB {
+          width: 30px;
+          height: 30px;
+      }
+
+      .ImformationHostMain {
+          display: flex;
+      }
 
 
-.NameHostNDB,
-.TimeNews {
-    margin: 0;
-}
+      .NameImg_Host {
+          display: flex;
+          margin: 0;
+          align-items: center;
+      }
 
-.HostAndTime{
-    width: 80px;
-    padding-right: 300px;
-}
 
-.NameHostNDB {
-    font-size: 14px;
-    text-transform: capitalize;
-    font-weight: 600;
-    width: 75px;
-}
+      .NameHostNDB,
+      .TimeNews {
+          margin: 0;
+      }
 
-.TimeNews {
-    font-size: 10px;
-}
+      .HostAndTime {
+          width: 80px;
+          padding-right: 300px;
+      }
 
-.PhoneMainNDBHide {
-    display: flex;
-    color: white;
-    background-color: rgb(21 137 139);
-    padding: 7px;
-    border-radius: 5px;
-    cursor: pointer;
-    align-items: center;
-}
+      .NameHostNDB {
+          font-size: 14px;
+          text-transform: capitalize;
+          font-weight: 600;
+          width: 75px;
+      }
 
-.PhoneMainNDBHide p {
-    margin: 0;
-}
+      .TimeNews {
+          font-size: 10px;
+      }
 
-.ButtonSaveNewsNDB {
-    width: 35px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #c1bbbb;
-    background-color: white;
-    border-radius: 4px;
-    cursor: pointer;
+      .PhoneMainNDBHide {
+          display: flex;
+          color: white;
+          background-color: rgb(21 137 139);
+          padding: 7px;
+          border-radius: 5px;
+          cursor: pointer;
+          align-items: center;
+      }
 
-}
+      .PhoneMainNDBHide p {
+          margin: 0;
+      }
 
-.PhoneMainNDB {
-    display: flex;
-    color: white;
-    background-color: rgb(21 137 139);
-    padding: 7px;
-    border-radius: 5px;
-    cursor: pointer;
-    align-items: center;
-}
+      .ButtonSaveNewsNDB {
+          width: 35px;
+          height: 35px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid #c1bbbb;
+          background-color: white;
+          border-radius: 4px;
+          cursor: pointer;
 
-.PhoneMainNDB p {
-    margin: 0;
-}
+      }
 
-.PhoneNDB {
-    padding-right: 10px;
-}
+      .PhoneMainNDB {
+          display: flex;
+          color: white;
+          background-color: rgb(21 137 139);
+          padding: 7px;
+          border-radius: 5px;
+          cursor: pointer;
+          align-items: center;
+      }
 
-.SaveNewsNDB {}
+      .PhoneMainNDB p {
+          margin: 0;
+      }
 
-.SaveNewsNDB {
-    padding-left: 10px;
-}
+      .PhoneNDB {
+          padding-right: 10px;
+      }
 
-.MainNDBNews {
-    cursor: pointer;
-    border: 1px solid rgb(211, 210, 210);
-    text-align: center;
-    border-radius: 4px;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
-}
+      .SaveNewsNDB {}
 
-.MainNDBNews:hover{
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-}
+      .SaveNewsNDB {
+          padding-left: 10px;
+      }
 
-.LineHeaderNDB{
-    
-    background-color: #d9d4d4;
-    height: 1px;
-    width: 100%;
-}
-.OptionNDB{
-    border: none;
-}
+      .MainNDBNews {
+          cursor: pointer;
+          border: 1px solid rgb(211, 210, 210);
+          text-align: center;
+          border-radius: 4px;
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+          width: 100%;
+          height: 431px;
+      }
+
+      .MainNDBNews:hover {
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      .LineHeaderNDB {
+
+          background-color: #d9d4d4;
+          height: 1px;
+          width: 100%;
+      }
+
+      .OptionNDB {
+          border: none;
+      }
+  }
+
+  @media screen and (min-width:768px) and (max-width:1024px) {
+      .ImgNDB {
+          width: 245px;
+          height: 233px;
+      }
+
+      .imgViewNDB {
+          width: 232px;
+          height: 116px;
+      }
+
+      .LinkMainNDB {
+          text-decoration: none;
+          color: black;
+          z-index: 1;
+      }
+
+      .imgLocationNDB,
+      .ImgNDB2 {
+          width: 114px;
+          height: 114px;
+      }
+
+
+      .ImgMainNDB {
+          display: flex;
+          height: 186px;
+      }
+
+      .IconNumberImgMain {
+          display: flex;
+          color: white;
+          padding-left: 420px;
+          align-items: center;
+
+      }
+
+      .NumberImg {
+          font-size: 18px;
+      }
+
+      .SubjectNDB {
+          font-weight: 700;
+          font-size: 16px;
+          text-transform: uppercase;
+      }
+
+      .InformationNDB p,
+      .InformationNDB h5 {
+          margin: 0;
+      }
+
+      .InformationNDB {
+          display: flex;
+          align-items: center;
+          height: 40px;
+
+      }
+
+      .InformationNDB p {
+          margin: 0;
+      }
+
+      .PriceNDB,
+      .acrageNDB {
+          font-size: 16px;
+          color: rgb(219, 33, 33);
+      }
+
+      .SpaceBettwenInformationNDB {
+          margin: 0;
+          padding-left: 10px;
+          padding-right: 10px;
+      }
+
+
+
+      .DescribeNDB2 {
+          overflow-x: hidden;
+          height: 47px;
+          width: 462px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          font-size: 16px;
+
+      }
+
+      .ImgHostNDB {
+          width: 30px;
+          height: 30px;
+      }
+
+      .ImformationHostMain {
+          display: flex;
+      }
+
+
+      .NameImg_Host {
+          display: flex;
+          margin: 0;
+          align-items: center;
+      }
+
+
+      .NameHostNDB,
+      .TimeNews {
+          margin: 0;
+      }
+
+      .HostAndTime {
+        width: 80px;
+        padding-right: 91px;
+    }
+
+      .NameHostNDB {
+          font-size: 14px;
+          text-transform: capitalize;
+          font-weight: 600;
+          width: 75px;
+      }
+
+      .TimeNews {
+          font-size: 10px;
+      }
+
+      .PhoneMainNDBHide {
+          display: flex;
+          color: white;
+          background-color: rgb(21 137 139);
+          padding: 7px;
+          border-radius: 5px;
+          cursor: pointer;
+          align-items: center;
+      }
+
+      .PhoneMainNDBHide p {
+          margin: 0;
+      }
+
+      .ButtonSaveNewsNDB {
+          width: 35px;
+          height: 35px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid #c1bbbb;
+          background-color: white;
+          border-radius: 4px;
+          cursor: pointer;
+
+      }
+
+      .PhoneMainNDB {
+          display: flex;
+          color: white;
+          background-color: rgb(21 137 139);
+          padding: 7px;
+          border-radius: 5px;
+          cursor: pointer;
+          align-items: center;
+      }
+
+      .PhoneMainNDB p {
+          margin: 0;
+      }
+
+      .PhoneNDB {
+          padding-right: 10px;
+      }
+
+      .SaveNewsNDB {}
+
+      .SaveNewsNDB {
+          padding-left: 10px;
+      }
+
+      .MainNDBNews {
+          width: 477px;
+          cursor: pointer;
+          border: 1px solid rgb(211, 210, 210);
+          text-align: center;
+          border-radius: 4px;
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      .MainNDBNews:hover {
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      .LineHeaderNDB {
+
+          background-color: #d9d4d4;
+          height: 1px;
+          width: 100%;
+      }
+
+      .OptionNDB {
+          border: none;
+      }
+  }

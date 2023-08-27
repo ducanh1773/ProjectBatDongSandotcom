@@ -208,7 +208,7 @@ function HeaderNhaDatBan() {
             <div style={{position:'sticky' , top:'0'}} className="HeaderMainNDB">
                 <div><Header></Header></div>
                 <div className="HeaderNDB2" >
-                    <div className="OptionNDB" style={{ display: 'flex' }}>
+                    <div className="OptionNDB" >
                         <button onClick={ClickChangeBackgr} className={"OptionNDB1" && BackgroundColor ? "ChangeBackgr" : "OptionNDB1"} >Bán</button>
                         <button onClick={ClickChangeBackgr2} className={"OptionNDB1" && BackgroundColor2 ? "ChangeBackgr1" : "OptionNDB2"}>Cho thuê</button>
                     </div>

@@ -16,7 +16,7 @@ function NhaDatBanMain(props) {
 
     const ElementNDB = props.ElementNDB.map((t) => {
         return (
-            <div style={{ width: '100%', height: '431px' }} className="MainNDBNews">
+            <div className="MainNDBNews">
                 <a href={t.link} className="LinkMainNDB">
                     <div className="ImgMainNDB">
                         <div>

@@ -1,17 +1,85 @@
-.MainPT {
-    width: 262px;
-    height: 72px;
-    border: none;
-    padding: 10px;
-    box-shadow: 0px 4px 6px rgba(44,44,44,0.04);
-     border-radius: 4px;
-     display: flex;
-     align-items: center;
-     cursor: pointer;
-     padding-right: 10px;
+@media screen and(min-width:1440px) and (max-width:2560px) {
+
+
+    .All_SP_Client {
+        padding-left: 136px;
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto auto auto auto;
+        width: 1000px;
+    }
+
+    .headerSP {
+        padding-left: 136px;
+    }
+
+
+    .MainPT {
+        width: 262px;
+        height: 72px;
+        border: none;
+        padding: 10px;
+        box-shadow: 0px 4px 6px rgba(44, 44, 44, 0.04);
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding-right: 10px;
+    }
+
+
+    .SubjectPT {
+        width: 168px;
+        height: 25px;
+        font-size: 20px;
+        color: black;
+        padding-left: 10px;
+    }
+
 }
-.MainPT:hover{
-    box-shadow: 4px 16px 24px rgba(44,44,44,0.04);
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+
+
+
+    .All_SP_Client {
+
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto auto;
+        width: 70%;
+    }
+
+    .headerSP {
+        padding-left: 0px;
+    }
+
+    .SubjectPT {
+        width: 108px;
+        height: 25px;
+        font-size: 20px;
+        color: black;
+        padding-left: 10px;
+    }
+
+
+    .MainPT {
+        width: 7px;
+        height: 72px;
+        border: none;
+        padding: 10px;
+        box-shadow: 0px 4px 6px rgba(44, 44, 44, 0.04);
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding-right: 10px;
+    }
+
+}
+
+.MainPT:hover {
+    box-shadow: 4px 16px 24px rgba(44, 44, 44, 0.04);
 }
 
 .imgPT {
@@ -19,13 +87,6 @@
     height: 48px;
 }
 
-.SubjectPT {
-    width: 168px;
-    height: 25px;
-    font-size: 20px;
-    color: black;
-    padding-left: 10px;
-}
 
 .LinkPT {
     display: flex;
@@ -33,28 +94,16 @@
     width: 262px;
     height: 72px;
     align-items: center;
+    color: black;
 }
 
-.All_SP_Client{
-    padding-left: 136px;
-    display: grid;
-    width: 100%;
-    grid-template-columns: auto auto auto auto;
-    width: 1000px;
-}
-.Main_pT1{
-    padding-right: 30px ;
+.Main_pT1 {
+    padding-right: 30px;
 }
 
-.headerSP{
-    padding-left: 136px;
-}
 
-.headerSP1{
+
+.headerSP1 {
     font-size: 24px;
     font-weight: 500;
 }
-
-
-
-

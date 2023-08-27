@@ -4,6 +4,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import TinTuc from "../Tin_Tuc_bds/tintuc_bds1";
 import './index.css'
 import BaoChiNoiVeBDS_Reuse from "../BaoChiNoiveBDS/BaoChiNoiVeBDSR_Reuse"
+
 function BaoChiNoiVeBDS() {
     const BC1 = [{ number: 'https://tse3.mm.bing.net/th?id=OIP.4AVguLDQUTbskbJD_6FeKwHaD4&pid=Api&P=0&h=220', name: 'Batdongsan.com.vn thay đổi nhận diện thương hiệu và ra mắt chuyên trang dự án', ImgURL: 'https://cdn.tuoitre.vn/thumb_w/730/2021/11/2/photo-1-16358248334981150224565.jpg', link: 'https://tuoitre.vn/batdongsan-com-vn-thay-doi-nhan-dien-thuong-hieu-va-ra-mat-chuyen-trang-du-an-20211102110334939.htm' }]
     const BC2 = [{ number: '/img/baochibds/th.png', name: 'CEO Batdongsan.com.vn: "Nâng cao trải nghiệm người dùng là điều quan trọng nhất"', ImgURL: 'https://cdn.tuoitre.vn/thumb_w/730/2021/11/2/photo-1-16358248334981150224565.jpg', link: 'https://tuoitre.vn/batdongsan-com-vn-thay-doi-nhan-dien-thuong-hieu-va-ra-mat-chuyen-trang-du-an-20211102110334939.htm' }]

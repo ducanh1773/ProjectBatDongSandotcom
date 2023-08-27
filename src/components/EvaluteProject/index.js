@@ -92,7 +92,7 @@ function EvaluteProjectMain() {
             <div style={{ width: '100%', height: '1px', backgroundColor: 'rgb(241 239 239)', }}>
 
             </div>
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div style={{ display: 'flex', justifyContent: 'center' }} className="SubjectOfEvalute">
 
                 <div className="SubjectNewsBDS">
                     <h1>
@@ -119,7 +119,7 @@ function EvaluteProjectMain() {
                         </a>
                     </div>
                 </div>
-                <div style={{ paddingLeft: '60px', width: '296px', height: '200px', display: 'grid', gridTemplateRows: 'auto auto auto' }}>
+                <div className="AntherNewsOnPTDG">
                     <div style={{ height: '48px', width: '296px', paddingBottom: '20px' }}>
                         <p style={{ textTransform: 'capitalize', marginBottom: '5px', fontSize: '12px' }}>04/08/2023 08:00 Tin tức</p>
                         <a href='' style={{ textDecoration: 'none', color: 'black' }}>  <h4 style={{ textTransform: 'capitalize', marginTop: '0' }} className="SubjectOnNewsMain">Nhà trọ Hà Nội Bắt đầu sôi nổi</h4></a>

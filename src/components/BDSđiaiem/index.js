@@ -10,11 +10,12 @@ function BDS_DD_Main() {
     const DD4 = [{ link: 'https://batdongsan.com.vn/nha-dat-ban-da-nang', name: 'Đồng Nai', number: '4.835 tin đăng', ImgURL: 'https://tse4.mm.bing.net/th?id=OIP.QCIXVOIi5ZC7Fdbcp9rEwwHaE7&pid=Api&P=0&h=220' }]
     return (
         <div>
+            <div className="BDSDDSubject">
+                <h1>Bất động sản theo địa điểm</h1>
+            </div>
             <div className="BDS_DD_Main1">
                 <div>
-                    <div>
-                        <h1>Bất động sản theo địa điểm</h1>
-                    </div>
+
                     <div className="BDS_DD_Main2">
                         <a className="BDS_DD_Main_link" href='https://batdongsan.com.vn/nha-dat-ban-tp-hcm' >
                             <div className="BDS_DD_IMG_Main">
@@ -38,11 +39,11 @@ function BDS_DD_Main() {
             <div className="bt_dd_main">
                 <div className="bt_dd1"><button className="bt_dd"><a href="" className="bt_dd2">Vinhomes Central Park</a></button></div>
                 <div className="bt_dd1"><button className="bt_dd"><a href="" className="bt_dd2">Vinhomes grand park</a></button></div>
-                <div className="bt_dd1"><button className="bt_dd"><a href=""  className="bt_dd2">Vinhomes smart city</a></button></div>
-                <div className="bt_dd1"><button className="bt_dd"><a href=""  className="bt_dd2">vinhomes ocean park</a></button></div>
-                <div className="bt_dd1"><button className="bt_dd"><a href=""  className="bt_dd2">vũng tàu pearl</a></button></div>
-                <div className="bt_dd1"><button className="bt_dd"><a href=""  className="bt_dd2">bcons green view</a></button></div>
-                <div className="bt_dd1"><button className="bt_dd"><a href=""  className="bt_dd2">grandeur palace</a></button></div>
+                <div className="bt_dd1"><button className="bt_dd"><a href="" className="bt_dd2">Vinhomes smart city</a></button></div>
+                <div className="bt_dd1"><button className="bt_dd"><a href="" className="bt_dd2">vinhomes ocean park</a></button></div>
+                <div className="bt_dd1"><button className="bt_dd"><a href="" className="bt_dd2">vũng tàu pearl</a></button></div>
+                <div className="bt_dd1"><button className="bt_dd"><a href="" className="bt_dd2">bcons green view</a></button></div>
+                <div className="bt_dd1"><button className="bt_dd"><a href="" className="bt_dd2">grandeur palace</a></button></div>
             </div>
         </div>
     )

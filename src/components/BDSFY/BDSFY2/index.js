@@ -30,6 +30,7 @@ function BDSFY_2() {
 
     return (
         <div>
+            <h1 className="SubjectBDSFY">Bất động sản dành cho bạn</h1>
             <div className="bdsfy_side1">
                 <BDSFY_1 information={FY1}></BDSFY_1>
                 <BDSFY_1 information={FY2}></BDSFY_1>

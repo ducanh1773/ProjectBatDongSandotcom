@@ -1,4 +1,31 @@
-.SearchEngineFromNews{
+
+
+@media  only screen and (min-width : 1440px) and (max-width : 1919px) {
+    .MainPageOnPageNews{
+        padding-left: 50px;
+      
+
+    }
+
+    .MainPageOnPageNews2{
+        padding-left: 100px;
+    }
+
+    .MainPageOnPageNews3{
+        padding-left: 200px;
+    }
+
+    .IntroduceOnPageNews{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .MainPageOnPageNews4{
+        padding-left: 200px;
+    }
+
+    .SearchEngineFromNews{
     border: none;
     width: 1130px;
     font-size:16px ;
@@ -54,28 +81,213 @@
     padding-left: 400px;
     display: flex;
 }
-@media  only screen and (max-width : 1440px) {
+
+.InformationOfMostInformationOnNews p{
+    width: 600px;
+    height: 100px;
+    text-overflow: ellipsis;
+    z-index: 5;
+    position: absolute;
+}
+}
+
+@media screen and (min-width:2560px) {
     .MainPageOnPageNews{
-        padding-left: 50px;
-      
-
+        margin-right: 669px;
+        margin-bottom: 5%;
     }
 
-    .MainPageOnPageNews2{
-        padding-left: 100px;
-    }
-
-    .MainPageOnPageNews3{
-        padding-left: 200px;
-    }
-
-    .IntroduceOnPageNews{
+    .Search2OnNewsBDS{
         width: 100%;
-        display: flex;
-        justify-content: center;
     }
+}
 
-    .MainPageOnPageNews4{
-        padding-left: 200px;
-    }
+@media screen and (min-width : 1920px) and (max-width:2055px) {
+          
+.SearchEngineFromNews{
+    border: none;
+    width: 1000px;
+    font-size:16px ;
+    color: black;
+    outline: none;
+    padding-right: 20px;
+    
+}
+
+.LineOnSearchEngineFromNews{
+    width: 1px;
+    height: 20px;
+    background-color: #c3c0c0;
+    
+}
+
+.SubjectNewsBDS{
+    width: 900px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.SubjectNewsBDS p{
+    font-size: 18px;
+    text-align: start;
+}
+
+.SubjectNewsBDS h1{
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+
+.SubjectOnNewsMain:hover{
+    color: rgb(196, 194, 194);
+}
+
+.MainPageOnPageNews4{
+    padding-left: 400px;
+    display: flex;
+  
+}
+
+.MainPageOnPageNews2{
+    padding-left: 300px; 
+    display: flex;
+     padding-top: 60px;
+}
+
+.MainPageOnPageNews3{
+    padding-left: 400px;
+    display: flex;
+}
+
+.Search2OnNewsBDS1{
+    padding-left: 200px;
+    padding-right: 20px;
+}
+
+
+.Search2OnNewsBDS{
+    width: 1000px;
+}
+
+.InformationOfMostInformationOnNews{
+    height: 200px;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.ImgOnmostInformationOnNews{
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.ImgOnmostInformationOnNews img{
+    filter:grayscale(60%) ;
+    width: 800px;
+    height: 450px;
+}
+
+}
+
+
+@media screen and ( min-width : 768px) and (max-width:1024px){
+       
+.SearchEngineFromNews{
+    border: none;
+    width: 100%;
+    font-size:16px ;
+    color: black;
+    outline: none;
+    padding-right: 20px;
+    
+}
+
+.LineOnSearchEngineFromNews{
+    width: 1px;
+    height: 20px;
+    background-color: #c3c0c0;
+    
+}
+
+.SubjectNewsBDS{
+    width: 900px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.SubjectNewsBDS p{
+    font-size: 18px;
+    text-align: start;
+}
+
+.SubjectNewsBDS h1{
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+
+.SubjectOnNewsMain:hover{
+    color: rgb(196, 194, 194);
+}
+
+.MainPageOnPageNews4{
+    
+    display: flex;
+  
+}
+
+.MainPageOnPageNews2{
+    padding-left: 300px; 
+    display: flex;
+     padding-top: 60px;
+}
+
+.MainPageOnPageNews3{
+    padding-top: 100px;
+    display: flex;
+}
+.Search2OnNewsBDS1{
+    width: 100px;
+}
+
+.Search2OnNewsBDS{
+    width: 320px;
+}
+
+
+.InformationOfMostInformationOnNews{
+    height: 200px;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    position: absolute;
+    padding-bottom: 200px;
+}
+
+.ImgOnmostInformationOnNews img{
+    filter: grayscale(60%);
+    width: 481px;
+    height: 272px;
+}
+
+.ImgOnmostInformationOnNews{
+    height: 55px;
+    width: 430px;
+}
+
+.InformationOfMostInformationOnNews a{
+    width: 400px;
+}
+
+.InformationOfMostInformationOnNews p{
+    height: 100px;
+    width: 400px;
+    text-overflow: ellipsis;
+    z-index: 5;
+    position: absolute;
+    margin-right: 100px;
+}
 }

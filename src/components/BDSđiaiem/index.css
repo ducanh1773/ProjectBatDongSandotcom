@@ -1,75 +1,314 @@
-.BDS_DD_Main_link{
-    text-decoration: none;
+@media screen and (min-width:1920px) and (max-width:2560px) {
+    .BDS_DD_Main_link {
+        text-decoration: none;
+    }
+
+    .BDS_DD_Main_link:hover {
+
+        text-decoration-line: underline;
+        color: #fff;
+    }
+
+    .BDS_DD_Right {
+        width: 651px;
+        height: 440px;
+        display: grid;
+        grid-template-columns: auto auto;
+        
+    }
+
+    .BDS_DD_IMG_1_Main {
+        width: 554px;
+        height: 410px;
+    }
+
+
+    .bds_dd_subject_Main {
+        text-decoration: none;
+        padding-left: 10px;
+    }
+
+    .bds_dd_subject_1_Main {
+        color: white;
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .bds_dd_subject_2_Main {
+        color: white;
+        margin-top: 0;
+        font-size: 14px;
+    }
+
+    .BDS_DD_Main1 {
+        display: flex;
+        padding-top: 100px;
+        padding-left: 9%;
+    }
+
+    .BDS_DD_Main2 {
+        padding-right: 35px;
+    }
+
+    .bt_dd_main {
+        display: flex;
+        padding-left: 9%;
+
+
+    }
+
+    .bt_dd2 {
+        color: black;
+        text-decoration: none;
+    }
+
+    .bt_dd {
+        width: 162px;
+        height: 25px;
+        color: white;
+        border-radius: 7px;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .bt_dd1 {
+        padding-right: 10px;
+    }
+    .BDS_DD_Right {
+        display: grid;
+        grid-template-columns: auto auto;
+       
+
+    }
+
+    .BDS_DD_link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .BDS_DD_IMG{
+        height: 7px;
+    }
+
+    .bds_dd_subject{
+        color: white;
+        text-decoration: none;
+    }
+
+    .BDS_DD_IMG_1{
+        width: 305px;
+        height: 191px;
+    }
+
+    .BDSDDSubject{
+        padding-left: 9%;
+    }
+    .BDS_DD_IMG_Main{
+        height: 3px;
+    }
 }
 
-.BDS_DD_Main_link:hover{
-    
-    text-decoration-line: underline ;
-    color: #fff;
-}
-.BDS_DD_Right{
-    width: 651px;
-    height: 440px;
-    display: grid;
-    grid-template-columns: auto auto;
-    padding-top: 87px;
+
+@media screen and (min-width:1440px) and (max-width:1919px) {
+    .BDS_DD_Main_link {
+        text-decoration: none;
+    }
+
+    .BDS_DD_Main_link:hover {
+
+        text-decoration-line: underline;
+        color: #fff;
+    }
+
+    .BDS_DD_Right {
+        width: 651px;
+        height: 440px;
+        display: grid;
+        grid-template-columns: auto auto;
+        
+    }
+
+    .BDS_DD_IMG_1_Main {
+        width: 554px;
+        height: 410px;
+    }
+
+
+    .bds_dd_subject_Main {
+        text-decoration: none;
+        padding-left: 10px;
+    }
+
+    .bds_dd_subject_1_Main {
+        color: white;
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .bds_dd_subject_2_Main {
+        color: white;
+        margin-top: 0;
+        font-size: 14px;
+    }
+
+    .BDS_DD_Main1 {
+        display: flex;
+        padding-top: 30px;
+    }
+
+    .BDS_DD_Main2 {
+        padding-right: 35px;
+        margin-top: 85px;
+    }
+
+    .bt_dd_main {
+        display: flex;
+        padding-left: 9%;
+
+
+    }
+
+    .bt_dd2 {
+        color: black;
+        text-decoration: none;
+    }
+
+    .bt_dd {
+        width: 162px;
+        height: 25px;
+        color: white;
+        border-radius: 7px;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .bt_dd1 {
+        padding-right: 10px;
+    }
+    .BDS_DD_Right {
+        display: grid;
+        grid-template-columns: auto auto;
+       
+
+    }
+
+    .BDS_DD_link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .BDS_DD_IMG{
+        height: 7px;
+    }
+
+    .bds_dd_subject{
+        color: white;
+        text-decoration: none;
+    }
+
+    .BDS_DD_IMG_1{
+        width: 305px;
+        height: 191px;
+    }
+
+    .BDSDDSubject{
+        padding-left: 9%;
+    }
 }
 
-.BDS_DD_IMG_1_Main{
-    width: 554px;
-    height: 410px;
-}
+@media only screen and (min-width:768px) and (max-width:999px) {
 
-.BDS_DD_IMG_Main{
-    width: 554px;
-    height: 5px;
-}
-.bds_dd_subject_Main{
-    text-decoration: none;
-    padding-left: 10px;
-}
+    .BDS_DD_IMG_1_Main {
+        height: 262px;
+        width: 333px;
+    }
 
-.bds_dd_subject_1_Main{
-    color: white;
-    font-size: 20px;
-    margin-bottom:0 ;
-}
+    .BDS_DD_IMG_Main {
+        width: 90px;
+        height: 5px;
+    }
 
-.bds_dd_subject_2_Main{
-    color: white;
-    margin-top: 0;
-    font-size: 14px;
-}
+    .BDS_DD_Main1 {
+        width: fit-content;
+        display: flex;
+    }
 
-.BDS_DD_Main1{
-    display: flex;
-   justify-content: center;
-   padding-top: 100px;
-}
+    .BDS_DD_Main2 {
+        width: 150px;
+    }
 
-.BDS_DD_Main2{
-    padding-right: 35px;
-}
+    .BDS_DD_Right {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 372px;
+        margin-left: 181px;
+        height: 285px;
 
-.bt_dd_main{
-    display: flex;
-    justify-content: center;
-    
-}
+    }
 
-.bt_dd2{
-    color: black;
-    text-decoration: none;
-}
-.bt_dd{
-    width: 162px;
-    height: 25px;
-    color: white;
-    border-radius: 7px;
-    border: none;
-    cursor: pointer;
+    .BDS_DD_IMG_1 {
+        margin-left: 10px;
+        width: 180px;
+        height: 125px;
+        margin-bottom: 10px;
+       
+    }
 
-}
-.bt_dd1{
-   padding-right: 10px;
+    .BDS_DD_link {
+        width: 100px;
+    }
+
+    .BDS_DD_link:hover {
+
+        text-decoration-line: underline;
+        color: #fff;
+    }
+
+    .BDS_DD_IMG {
+        width: 100px;
+        height: 7px;
+    }
+
+    .bds_dd_subject {
+        padding-left: 10px;
+    }
+
+    .bds_dd_subject_1 {
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    .bds_dd_subject_2 {
+        color: #fff;
+        margin-top: 0;
+        font-size: 14px;
+    }
+
+    .BDS_DD_Main_link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .bt_dd_main{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .bt_dd2{
+        color: black;
+        text-decoration: none;
+    }
+
+    .bt_dd{
+        border: none;
+        border-radius: 7px;
+        margin-bottom: 5px;
+    }
+
+    .BDS_DD_IMG_Main{
+      
+    }
 }

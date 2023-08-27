@@ -1,11 +1,13 @@
-.ImgBC{
-    width: 48px;
-    height: 48px;
-    border-radius: 30px;
-    border:1px solid #c3c3c3;
-    
-}
-.ImgBC_1{
-    padding-top: 20px;
-}
+
+
+    .ImgBC{
+        width: 48px;
+        height: 48px;
+        border-radius: 30px;
+        border:1px solid #c3c3c3;
+        
+    }
+    .ImgBC_1{
+        padding-top: 20px;
+    }
 

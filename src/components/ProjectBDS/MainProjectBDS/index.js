@@ -167,8 +167,8 @@ function ProjectBDSMain() {
                                         <input type="search" className="SearchProject" placeholder="Tìm kiếm dự án..."></input>
                                     </div>
                                 </div>
-                                <div style={{ display: 'flex', cursor: 'pointer', alignItems: 'center' }} className="MainAllOptionProject">
-                                    <div className="LineOptionProject" style={{ marginLeft: '20' }}></div>
+                                <div className="MainAllOptionProject">
+                                    <div className="LineOptionProject"></div>
                                     <div className="AllOptionProject" onClick={handleClick}>
                                         <div className="OptionProject">
                                             <p>Khu vực</p>
@@ -177,7 +177,7 @@ function ProjectBDSMain() {
                                         <p>Toàn quốc</p>
                                     </div>
                                 </div>
-                                <div style={{ display: 'flex', cursor: 'pointer', alignItems: 'center' }} className="MainAllOptionProject">
+                                <div className="MainAllOptionProject">
                                     <div className="LineOptionProject" style={{ margin: '0' }}></div>
                                     <div className="AllOptionProject" onClick={handleClick2}>
                                         <div className="OptionProject">
@@ -187,7 +187,7 @@ function ProjectBDSMain() {
                                         <p>Tất cả</p>
                                     </div>
                                 </div>
-                                <div style={{ display: 'flex', cursor: 'pointer', alignItems: 'center' }} className="MainAllOptionProject">
+                                <div className="MainAllOptionProject">
                                     <div className="LineOptionProject" style={{ margin: '0' }}></div>
                                     <div className="AllOptionProject" onClick={handleClick3}>
                                         <div className="OptionProject">
@@ -197,7 +197,7 @@ function ProjectBDSMain() {
                                         <p>Tất cả</p>
                                     </div>
                                 </div>
-                                <div style={{ display: 'flex', cursor: 'pointer', alignItems: 'center' }} className="MainAllOptionProject">
+                                <div className="MainAllOptionProject">
                                     <div className="LineOptionProject" style={{ margin: '0' }}></div>
                                     <div className="AllOptionProject" onClick={handleClick4}>
                                         <div className="OptionProject">
@@ -222,7 +222,7 @@ function ProjectBDSMain() {
 
                             </div>
 
-                            <div style={{ display: 'flex', paddingLeft: '344px' }} className="AllOptionProjectInButton">
+                            <div className="AllOptionProjectInButton">
                                 <div>
                                     {showElement &&
                                         <div className="LocationOptionProject">
@@ -271,7 +271,7 @@ function ProjectBDSMain() {
                                 {showElement2 &&
                                     <div className="OptionHouseProject">
                                         <a href="">
-                                            <div style={{ display: 'flex', paddingBottom: '15px', paddingTop: '15px', borderTop: '1px solid rgb(231 231 231)' }}>
+                                            <div className="OptioneHouseOnProjectMain" >
 
                                                 <box-icon name='building-house' ></box-icon>
                                                 <p>Tất cả các loại hình</p>
@@ -279,7 +279,7 @@ function ProjectBDSMain() {
                                             </div>
                                         </a>
                                         <a href="">
-                                            <div style={{ display: 'flex', paddingBottom: '15px', paddingTop: '15px', borderTop: '1px solid rgb(231 231 231)' }}>
+                                            <div >
 
                                                 <box-icon name='building-house' ></box-icon>
                                                 <p>Tất cả các loại hình</p>
@@ -386,7 +386,7 @@ function ProjectBDSMain() {
                 </div>
 
             </div>
-            <div style={{ paddingLeft: '250px', height: '123px' }}>
+            <div  className="SubjectOnProject2">
                 <div style={{ display: 'flex' }}>
                     <p style={{ color: 'rgb(117 115 115);' }}>Dự án/</p>
                     <p >Dự án BĐS toàn quốc</p>
@@ -396,7 +396,7 @@ function ProjectBDSMain() {
 
                 </div>
                 <div style={{ display: 'flex' }} onClick={handleClick5}>
-                    <p style={{ paddingRight: '555px' }}>Hiện đang có 5.421 dự án</p>
+                    <p className="NumberOfProjectInBDS">Hiện đang có 5.421 dự án</p>
                     <div className="OptionNewsProject">
                         <p style={{ paddingLeft: '10px', paddingRight: '30px' }}>Mới nhất</p>
                         <box-icon name='chevron-down' type='solid' ></box-icon>
@@ -409,7 +409,7 @@ function ProjectBDSMain() {
                 <p>Gía cao nhất</p>
                 <p>Gía thấp nhất</p>
             </div>}
-            <div style={{ paddingLeft: '250px', paddingTop: '30px', display: 'flex' }}>
+            <div  className="AllOptionProjectShow">
                 <div>
                     <div className="OptioneProjectMain">
                         <OptionMainProject ImgElement={ImgElement1}></OptionMainProject>
@@ -499,7 +499,7 @@ function ProjectBDSMain() {
                         </Splide>
                     </div>
                     <div className="NewsOnProject">
-                        <div style={{ display: 'flex' }} className="NewsOnProject1">
+                        <div  className="NewsOnProject1">
                             <h4>Tin tức</h4>
 
                             <a href="" className="" style={{ textDecoration: 'none' }}>

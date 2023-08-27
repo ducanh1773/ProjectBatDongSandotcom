@@ -1,5 +1,23 @@
-.introduce_BDS1{
-    width: 1360px;
-    padding-bottom: 50px;
+@media screen and (min-width : 1440px) and (max-width:1920px) {
+    .introduce_BDS1{
+        width: 1360px;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (min-width : 768px) and (max-width:1024px) {
+    .introduce_BDS1{
+        width: 80%;
+        padding-bottom: 50px;
+        padding-left: 80px;
+    }
+}
+@media screen and (min-width:360px) and ( max-width:540px) {
+    .introduce_BDS1{
+        width: 40%;
+        padding-bottom: 50px;
+    }
+
+
 }
 
