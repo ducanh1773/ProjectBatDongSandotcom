@@ -68,7 +68,7 @@ function EvaluteProjectMain() {
                                 <p style={{ margin: '0', color: '#c3c0c0', paddingLeft: '30px' }}>Wiki BĐS</p>
                             </div>
                         </a>
-                        <div style={{ width: '1000px' }}>
+                        <div style={{ width: '1000px' }} className="">
 
                         </div>
                         <div style={{ display: 'flex', cursor: 'pointer' }} onClick={handleClick}>

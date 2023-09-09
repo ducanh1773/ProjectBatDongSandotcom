@@ -2,7 +2,7 @@
   "name": "reactjs",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://ducanh1773.github.io/ProjectBatDongSandotcom",
+  "homepage": "https://ducanh1773.github.io/ProjectBatDongSandotcom",
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
     "@splidejs/splide-extension-auto-scroll": "^0.5.3",
@@ -19,7 +19,6 @@
     "react-scripts": "5.0.1",
     "tippy.js": "^6.3.7",
     "web-vitals": "^2.1.4"
-    
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,7 +27,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-    
   },
   "eslintConfig": {
     "extends": [

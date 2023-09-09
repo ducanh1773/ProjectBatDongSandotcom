@@ -1,5 +1,7 @@
 import './dangky.css'
+
 function dangky() {
+    
     return (
         <div  className='right_dk'>
             <div>
@@ -18,7 +20,7 @@ function dangky() {
                     <p className='letter_3'>Xin chào bạn</p>
                     <p className='letter_4'>Đăng ký tài khoản mới</p>
                     <div>
-                        <form className='form'>
+                        <form className='form' action='index.php' method='get'>
                             <div className='form_dk'>
                             <i className="fa fa-user icon_user"></i>
                             <input className = 'INPUT_1' placeholder='Nhập số điện thoại'></input>

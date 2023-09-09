@@ -42,6 +42,48 @@
     
 }
 
+
+@media screen and (min-width : 1440px) and (max-width:1919px) {
+    .Option_BaoChinoiveBDS {
+        text-align: center;
+        display: flex;
+        padding-top: 100px;
+        padding-bottom: 300px;
+       
+    }
+
+    .Link_BC_BDS {
+        cursor: pointer;
+        text-decoration: none;
+        color: red;
+    }
+
+    .SubjectBC1 {
+        display: flex;
+        align-items: center;
+    }
+    
+    .SubjectBC2 {
+        margin: 0;
+        display: flex;
+        justify-content: end;
+        width: 747px;
+    }
+    
+    .Option_BaoChinoiveBDS1 {
+        width: 235px;
+        height: 180px;
+    
+    
+    }
+    
+    .TextBC {
+        font-weight: 400;
+        text-align: center;
+    }
+    
+}
+
 @media screen and (min-width:768px) and (max-width:1024px){
 
     .Option_BaoChinoiveBDS {

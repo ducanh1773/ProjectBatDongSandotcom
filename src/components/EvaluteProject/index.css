@@ -42,7 +42,7 @@
 }
 
 /*Laptop L */
-@media only screen and (min-width : 1440px) and (max-width:2559px) {
+@media only screen and (min-width : 1920px) and (max-width:2559px) {
     .NewsOnPTDG {
         padding-left: 150px;
     }
@@ -103,6 +103,8 @@
 
 
 }
+
+
 
 @media screen and (min-width:2560px) {
     .NewsOnPTDG {
@@ -168,4 +170,69 @@
         display: grid;
         grid-template-columns: auto auto;
     }
+}
+
+@media screen and (min-width:1440px) and ( max-width:1919px) {
+    .NewsOnPTDG {
+        padding-left: 150px;
+    }
+
+    .MainOnEvaluteProject {
+        padding-left: 150px;
+    }
+
+    .OptionInMainOnEvaluteProject1 {
+        display: grid;
+        width: 1200px;
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .OptionInMainOnEvaluteProject2 {
+
+        padding-left: 150px;
+    }
+
+    .OptionInMainOnEvaluteProjecth1 {
+        padding-left: 150px;
+        padding-bottom: 30px;
+    }
+
+    .NewsOnPTDG {
+        padding-left: 200px;
+        display: flex;
+        padding-top: 60px;
+    
+    }
+
+    .MainOnEvaluteProject {
+        padding-left: 300px;
+        margin-top: 80px;
+    }
+
+    .OptionInMainOnEvaluteProject {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+
+    .OptionInMainOnEvaluteProject1 {
+        display: grid;
+        width: 1500px;
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .OptionInMainOnEvaluteProject2 {
+        display: flex;
+        padding-left: 180px;
+    }
+
+    .OptionInMainOnEvaluteProjecth1 {
+        padding-left: 300px;
+        padding-bottom: 60px;
+    }
+
+    .AntherNewsOnPTDG{
+        padding-left: 40px;
+    }
+
 }

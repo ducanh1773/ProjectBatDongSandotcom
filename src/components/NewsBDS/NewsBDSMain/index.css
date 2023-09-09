@@ -66,7 +66,7 @@
 }
 
 .MainPageOnPageNews4{
-    padding-left: 400px;
+    padding-left: 200px;
     display: flex;
   
 }
@@ -78,8 +78,9 @@
 }
 
 .MainPageOnPageNews3{
-    padding-left: 400px;
+    padding-left: 200px;
     display: flex;
+    margin-top: 241px;
 }
 
 .InformationOfMostInformationOnNews p{
@@ -88,6 +89,10 @@
     text-overflow: ellipsis;
     z-index: 5;
     position: absolute;
+    margin-bottom: 400px;
+}
+.ImgOnmostInformationOnNews{
+    height: 300px;
 }
 }
 
